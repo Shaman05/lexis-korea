@@ -1,4 +1,4 @@
-body,p,ul,li,h1,h2,h3,h4,h5,h6,input{margin: 0; padding: 0;}
+body,p,ul,li,h1,h2,h3,h4,h5,h6,input,dl,dd{margin: 0; padding: 0;}
 body{
     color: #666666;
     font-family: verdana,Tahoma,Arial,Helvetica,snas-serif;
@@ -6,13 +6,20 @@ body{
     line-height: 1.42857;
     min-width: 1024px;
 }
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
 input{
     outline: none;
 }
 li{
     list-style: none;
 }
-a{
+a,
+.main-nav li a:hover,
+.tab-content li a,
+.more-link a:hover,
+.topic a:hover{
     text-decoration: none;
 }
 a:hover{
@@ -199,7 +206,6 @@ a:hover{
     color: #5e5e5e;
 }
 .main-nav li a:hover{
-    text-decoration: none;
     background: #FF456f;
     color: #ffffff;
     -moz-transition: background 0.4s;
@@ -278,6 +284,11 @@ a:hover{
     width: 320px;
     margin-right: -320px;
 }
+.blank-10{
+    clear: both;
+    height: 10px;
+    font-size: 0;
+}
 
 
 /*footer*/
@@ -346,8 +357,12 @@ a:hover{
 .tab-nav-3 em{
     background: #CC0033;
 }
-.tab-nav .active, .tab-content .active h3{
+.tab-nav .active, .tab-content .active h3,
+.tab-content-1 li a:hover,
+.topic .btn-expand{
     color: #009DDB;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
 .tab-content h3{
     font-size: 28px;
@@ -389,12 +404,100 @@ a:hover{
     padding-left: 16px;
     background: url("../image/allicon.png") no-repeat -74px -90px;
 }
-.more-link a:hover{
-    text-decoration: none;
-}
-
 .newsletter{
     width: 320px;
     height: 243px;
     background: url("../image/sub.png") no-repeat 0 0;
+}
+.newsletter form{
+    padding: 65px 0 0 55px;
+}
+.newsletter li{
+    height: 22px;
+}
+.newsletter li input{
+    vertical-align: -2px;
+}
+.newsletter .email{
+    margin: 16px 0 20px;
+}
+.newsletter .btn-submit{
+    border: none;
+    cursor: pointer;
+    background: #CC0033;
+    color: #FFFFFF;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    width: 88px;
+}
+.newsletter .tab-nav-1{
+    color: #009DDB;
+}
+.newsletter .tab-nav-2{
+    color: #A4B800;
+}
+.newsletter .tab-nav-3{
+    color: #CC0033;
+}
+.newsletter .email input{
+    background: #FAFAFA;
+    border: 1px solid #CDCDCD;
+    height: 25px;
+    outline: medium none;
+}
+.aside{
+    width: 32%;
+}
+.topic{
+    width: 67%;
+    position: relative;
+}
+.topic a{
+    color: #009DDB;
+}
+.topic dt{
+    font-size: 24px;
+    padding-bottom: 6px;
+}
+.topic .item h4 a{
+    color: #666666;
+}
+.topic dd{
+    float: left;
+    width: 31%;
+    margin-right: 2%;
+}
+.topic .item{
+    margin-bottom: 12px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+}
+.topic .item:hover{
+    border-color: #cccccc;
+    background: #fcfcfc;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.topic .item li,.topic .item h4{
+    margin-bottom: 1em;
+}
+.topic .cate-more{
+    background: url("../image/allicon.png") no-repeat scroll -2px -100px rgba(0, 0, 0, 0);
+    cursor: pointer;
+    height: 14px;
+    width: 42px;
+    margin-top: 8px;
+}
+.topic .btn-expand{
+    position: absolute;
+    top: 10px;
+    right: 2%;
+    padding-left: 20px;
+    background: url("../image/allicon.png") no-repeat -120px -100px;
+    cursor: pointer;
+}
+.btn-expand span{
+    background: #ffffff;
 }
