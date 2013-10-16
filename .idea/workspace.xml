@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
     </list>
     <ignored path="demo.iws" />
@@ -41,10 +42,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.37121212">
       <split-first>
         <leaf>
-          <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="309" column="28" selection-start="5710" selection-end="5710" vertical-scroll-proportion="0.7569331">
+                <state line="311" column="31" selection-start="5749" selection-end="5749" vertical-scroll-proportion="0.8091354">
                   <folding />
                 </state>
               </provider>
@@ -54,10 +55,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="174" column="23" selection-start="9253" selection-end="9253" vertical-scroll-proportion="-13.826087">
+                <state line="174" column="21" selection-start="9260" selection-end="9260" vertical-scroll-proportion="0.78305084">
                   <folding />
                 </state>
               </provider>
@@ -72,10 +73,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="footer.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="footer.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/footer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="25" selection-start="376" selection-end="376" vertical-scroll-proportion="0.21694915">
+                <state line="8" column="25" selection-start="376" selection-end="376" vertical-scroll-proportion="-5.5652175">
                   <folding />
                 </state>
               </provider>
@@ -104,9 +105,9 @@
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/header.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -454,23 +455,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="23" selection-start="9253" selection-end="9253" vertical-scroll-proportion="-13.826087">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="376" selection-end="376" vertical-scroll-proportion="0.21694915">
+        <state line="8" column="25" selection-start="376" selection-end="376" vertical-scroll-proportion="-5.5652175">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="309" column="28" selection-start="5710" selection-end="5710" vertical-scroll-proportion="0.7569331">
+        <state line="311" column="31" selection-start="5749" selection-end="5749" vertical-scroll-proportion="0.8091354">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="21" selection-start="9260" selection-end="9260" vertical-scroll-proportion="0.78305084">
           <folding />
         </state>
       </provider>
