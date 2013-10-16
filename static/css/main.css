@@ -135,15 +135,14 @@ a:hover{
     float: right;
     border: 1px solid #e9e9e9;
     background: url("../image/search-form-bg.gif") repeat-x 0 14px;
-    border-radius: 10px;
-    padding: 10px 10px 4px 10px;
+    padding: 10px;
     margin-top: 16px;
+    margin-bottom: 16px;
 }
 .top-search .search-input{
-    height: 36px;
-    line-height: 36px;
+    height: 34px;
+    line-height: 34px;
     border: 1px solid #dddddd;
-    border-radius: 10px;
     width: 380px;
     padding: 0 12px;
     box-shadow: 0 0 3px #cccccc inset;
@@ -167,7 +166,6 @@ a:hover{
     text-indent: -999px;
     overflow: hidden;
     border: 1px solid #cccccc;
-    border-radius: 10px;
     cursor: pointer;
     vertical-align: middle;
 }
@@ -374,7 +372,8 @@ a:hover{
     height: 120px;
     overflow: hidden;
 }
-.tab-content li{
+.tab-content li,
+.tab-aside-content h4{
     padding-left: 10px;
     background: url("../image/allicon.png") no-repeat -194px -61px;
 }
@@ -454,7 +453,8 @@ a:hover{
     width: 67%;
     position: relative;
 }
-.topic a{
+.topic a,
+.tab-aside-content h4 a{
     color: #009DDB;
 }
 .topic dt{
@@ -500,4 +500,31 @@ a:hover{
 }
 .btn-expand span{
     background: #ffffff;
+}
+.tab-aside-content{
+    border: 1px solid #dddddd;
+    border-top: none;
+    padding: 0 20px 20px;
+    overflow: hidden;
+}
+.tab-aside-content .item{
+    padding: 10px 0;
+    border-bottom: 1px dotted #dddddd;
+    margin-bottom: -1px;
+}
+.tab-aside-content h4{
+    overflow: hidden;
+    height: 22px;
+    line-height: 22px;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    display: inline-block;
+}
+.tab-aside-content .item-content{
+    padding: 0 10px;
+}
+.meet-team{
+    margin-top: 20px;
+    height: 160px;
+    background: #efefef;
 }
