@@ -15,5 +15,27 @@
         </div>
     </div>
 </div>
+<script type="text/javascript" src="./static/js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        navInit();
+
+        function navInit(){
+            var navMap = {
+                "index": 0,
+                "search": 1,
+                "regulation": 2,
+                "cases": 3
+            };
+            var url = window.top.location.href;
+            for(var name in navMap){
+                if(url.indexOf(name) >= 0){
+                    $(".main-nav").find(">ul>li").eq(navMap[name]).addClass("active");
+                    return;
+                }
+            }
+        }
+    });
+</script>
 </body>
 </html>
