@@ -280,7 +280,7 @@ a:hover{
 /*contain*/
 .contain{
     min-height: 370px;
-    padding: 20px 40px;
+    padding: 24px 40px;
     background: #ffffff;
 }
 .left{
@@ -303,6 +303,13 @@ a:hover{
     clear: both;
     height: 10px;
     font-size: 0;
+}
+.block-left-280{
+    padding-left: 280px;
+}
+.block-left-280 .left{
+    width: 280px;
+    margin-left: -280px;
 }
 
 
@@ -552,4 +559,21 @@ a:hover{
     margin-top: 20px;
     height: 160px;
     background: #efefef;
+}
+
+/*regulation page*/
+.regulation-page .right-content{
+    margin-left: 18px;
+}
+.filter-box{
+    min-height: 300px;
+    border-radius: 3px;
+    border: 1px solid #dfdfdf;
+    background: #fafafa;
+}
+.list-bar{
+    height: 38px;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px 3px 0 0;
+    background: #fafafa;
 }
