@@ -371,10 +371,18 @@ a:hover{
 .tab-nav .arrow{
     position: absolute;
     top: -7px;
-    left: 70px;
+
     height: 7px;
     width: 16px;
     background: url("../image/allicon.png") no-repeat -170px -25px;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+.active-0 .arrow{
+    left: 7%;
+}
+.active-1 .arrow{
+    left: 39%;
 }
 .tab-nav em{
     display: inline-block;

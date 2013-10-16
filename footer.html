@@ -54,6 +54,7 @@
             var $nav = $slide.find(navSelector);
             $nav.click(function(){
                 var index = $(this).index(navSelector);
+                $(".tab-nav").attr("class", "tab-nav cf active-" + index);
                 $content.each(function(e, i){
                     if(index !== i){
                         $(this).stop().fadeOut(500);
