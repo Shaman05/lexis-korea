@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.html" afterPath="$PROJECT_DIR$/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
     </list>
     <ignored path="demo.iws" />
@@ -46,7 +44,7 @@
           <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="303" column="27" selection-start="5637" selection-end="5637" vertical-scroll-proportion="0.60032624">
+                <state line="309" column="28" selection-start="5710" selection-end="5710" vertical-scroll-proportion="0.7569331">
                   <folding />
                 </state>
               </provider>
@@ -472,7 +470,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="303" column="27" selection-start="5637" selection-end="5637" vertical-scroll-proportion="0.60032624">
+        <state line="309" column="28" selection-start="5710" selection-end="5710" vertical-scroll-proportion="0.7569331">
           <folding />
         </state>
       </provider>

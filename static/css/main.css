@@ -296,7 +296,7 @@ a:hover{
 .footer{
     background: #f1f1f1;
     border-top: 1px solid #dddddd;
-    color: #999999;
+    color: #9b9b9b;
     line-height: 24px;
 }
 .footer-wrap{
@@ -304,7 +304,7 @@ a:hover{
     padding: 12px 12px 20px;
 }
 .footer a{
-    color: #428BCA;
+    color: #888a8a;
     margin: 0 4px;
 }
 .footer .browser{
