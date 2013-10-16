@@ -138,6 +138,7 @@ a:hover{
     padding: 10px;
     margin-top: 16px;
     margin-bottom: 16px;
+    border-radius: 5px;
 }
 .top-search .search-input{
     height: 34px;
@@ -149,6 +150,7 @@ a:hover{
     font-size: 20px;
     color: #EF003D;
     vertical-align: middle;
+    border-radius: 18px 0 0 18px;
 }
 .top-search .select-option{
     padding: 4px 0;
@@ -328,7 +330,7 @@ a:hover{
 .tab-nav .arrow{
     position: absolute;
     top: -7px;
-    left: 90px;
+    left: 70px;
     height: 7px;
     width: 16px;
     background: url("../image/allicon.png") no-repeat -170px -25px;
@@ -409,7 +411,7 @@ a:hover{
     background: url("../image/sub.png") no-repeat 0 0;
 }
 .newsletter form{
-    padding: 65px 0 0 55px;
+    padding: 78px 0 0 55px;
 }
 .newsletter li{
     height: 22px;
