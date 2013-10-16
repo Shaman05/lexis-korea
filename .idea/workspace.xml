@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.html" afterPath="$PROJECT_DIR$/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
     </list>
     <ignored path="demo.iws" />
@@ -9,10 +11,10 @@
     <file path="/test.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381570303027" ignored="false" />
     <file path="/test.php" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381570014246" ignored="false" />
     <file path="/header.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381712563950" ignored="false" />
-    <file path="/dummy.xml" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381744344445" ignored="false" />
-    <file path="/footer.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381608414016" ignored="false" />
+    <file path="/dummy.xml" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381905930525" ignored="false" />
+    <file path="/footer.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381905929703" ignored="false" />
     <file path="/index.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381901374518" ignored="false" />
-    <file path="/main.css" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381905572315" ignored="false" />
+    <file path="/main.css" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381906058988" ignored="false" />
     <file path="/Dummy.txt" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381901132343" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/caseSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381717192344" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/out/assets/js/api-list.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381799940600" ignored="false" />
@@ -44,7 +46,7 @@
           <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="130" column="19" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.730832">
+                <state line="303" column="27" selection-start="5637" selection-end="5637" vertical-scroll-proportion="0.60032624">
                   <folding />
                 </state>
               </provider>
@@ -54,10 +56,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="46" column="45" selection-start="2584" selection-end="2584" vertical-scroll-proportion="0.65084743">
+                <state line="174" column="23" selection-start="9253" selection-end="9253" vertical-scroll-proportion="-13.826087">
                   <folding />
                 </state>
               </provider>
@@ -67,6 +69,15 @@
             <entry file="file://$PROJECT_DIR$/header.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="42" column="37" selection-start="1899" selection-end="1904" vertical-scroll-proportion="-18.782608">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="footer.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/footer.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="25" selection-start="376" selection-end="376" vertical-scroll-proportion="0.21694915">
                   <folding />
                 </state>
               </provider>
@@ -94,9 +105,9 @@
       <list>
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/header.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
       </list>
     </option>
@@ -383,7 +394,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="112" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" />
+        <state line="15" column="112" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
@@ -416,7 +429,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="66" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" />
+        <state line="14" column="66" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
@@ -434,11 +449,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="62" selection-start="611" selection-end="611" vertical-scroll-proportion="0.4338983" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="37" selection-start="1899" selection-end="1904" vertical-scroll-proportion="-18.782608">
@@ -448,14 +458,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="45" selection-start="2584" selection-end="2584" vertical-scroll-proportion="0.65084743">
+        <state line="174" column="23" selection-start="9253" selection-end="9253" vertical-scroll-proportion="-13.826087">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="376" selection-end="376" vertical-scroll-proportion="0.21694915">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="19" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.730832">
+        <state line="303" column="27" selection-start="5637" selection-end="5637" vertical-scroll-proportion="0.60032624">
           <folding />
         </state>
       </provider>
