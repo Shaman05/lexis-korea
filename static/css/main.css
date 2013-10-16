@@ -5,6 +5,7 @@ body{
     font-size: 11px;
     line-height: 1.42857;
     min-width: 1024px;
+    background: #fafafa;
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: normal;
@@ -120,16 +121,15 @@ a:hover{
     float: left;
     height: 40px;
     overflow: hidden;
-    line-height: 46px;
     color: #CC0033;
     padding-left: 150px;
     margin-top: 24px;
-    background: url("../image/allicon.png") no-repeat -10px -47px;
+    background: url("../image/logo-png8.png") no-repeat -10px 0;
 }
 .logo h2{
     font-size: 16px;
+    line-height: 42px;
     font-weight: normal;
-    background: #FFFFFF;
 }
 .top-search{
     float: right;
@@ -267,6 +267,7 @@ a:hover{
 .contain{
     min-height: 370px;
     padding: 20px 40px;
+    background: #ffffff;
 }
 .left{
     float: left;
