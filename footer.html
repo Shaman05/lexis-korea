@@ -18,8 +18,8 @@
 <script type="text/javascript" src="./static/js/jquery-1.4.4.min.js"></script>
 <script type="text/javascript">
     $(function(){
-
         navInit();
+        tabInit();
 
         function navInit(){
             var $mainNav = $(".main-nav");
@@ -44,6 +44,23 @@
                     return;
                 }
             }
+        }
+
+        function tabInit(){
+            var $slide = $(".slide");
+            var contentSelector = ".tab-content > div";
+            var navSelector = ".tab-nav > span";
+            var $content = $slide.find(contentSelector);
+            var $nav = $slide.find(navSelector);
+            $nav.click(function(){
+                var index = $(this).index(navSelector);
+                $content.each(function(e, i){
+                    if(index !== i){
+                        $(this).stop().fadeOut(500);
+                    }
+                });
+                $content.eq(index).fadeIn(500);
+            });
         }
     });
 </script>

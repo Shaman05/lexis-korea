@@ -398,12 +398,22 @@ a:hover{
 .tab-nav-3 em{
     background: #CC0033;
 }
-.tab-nav .active, .tab-content .active h3,
+.tab-nav-1.active, .tab-content h3,
 .tab-content-1 li a:hover,
 .topic .btn-expand{
     color: #009DDB;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
+}
+.tab-content{
+    position: relative;
+}
+.tab-content .tab-content-1,
+.tab-content .tab-content-2{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .tab-content h3{
     font-size: 28px;
@@ -417,7 +427,7 @@ a:hover{
 }
 .tab-content li,
 .tab-aside-content h4{
-    padding-left: 10px;
+    padding: 0 20px 0 10px;
     background: url("../image/allicon.png") no-repeat -194px -61px;
 }
 .tab-content li a{
@@ -428,6 +438,11 @@ a:hover{
     text-overflow: ellipsis;
     word-wrap: normal;
     display: inline-block;
+}
+.tab-nav-2.active,
+.tab-content-2 h3,
+.tab-content-2 li a:hover{
+    color: #A4B800;
 }
 .more-link{
     text-align: right;
