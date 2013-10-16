@@ -18,9 +18,12 @@
 <script type="text/javascript" src="./static/js/jquery-1.4.4.min.js"></script>
 <script type="text/javascript">
     $(function(){
+
         navInit();
 
         function navInit(){
+            var $mainNav = $(".main-nav");
+            var navOffsetTop = $mainNav.offset().top;
             var navMap = {
                 "index": 0,
                 "search": 1,
@@ -28,9 +31,16 @@
                 "cases": 3
             };
             var url = window.top.location.href;
+            $(window).scroll(function(){
+                if($("html").scrollTop() > navOffsetTop || $("body").scrollTop() > navOffsetTop){
+                    $mainNav.css("position", "fixed");
+                }else{
+                    $mainNav.css("position", "relative");
+                }
+            });
             for(var name in navMap){
                 if(url.indexOf(name) >= 0){
-                    $(".main-nav").find(">ul>li").eq(navMap[name]).addClass("active");
+                    $mainNav.find(">ul>li").eq(navMap[name]).addClass("active");
                     return;
                 }
             }

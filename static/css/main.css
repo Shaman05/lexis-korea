@@ -203,9 +203,16 @@ a:hover{
     font-weight: bold;
 }
 .main-nav{
-    padding-left: 40px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 999;
     background: #efefef;
     border-bottom: 1px solid #dddddd;
+}
+.main-nav ul{
+    padding-left: 40px;
 }
 .main-nav li{
     float: left;

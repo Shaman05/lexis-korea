@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.html" afterPath="$PROJECT_DIR$/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.html" afterPath="$PROJECT_DIR$/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regulation.html" afterPath="$PROJECT_DIR$/regulation.html" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,9 +11,9 @@
     <file path="/test.php" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381570014246" ignored="false" />
     <file path="/header.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381910845778" ignored="false" />
     <file path="/dummy.xml" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381909799874" ignored="false" />
-    <file path="/footer.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381913870563" ignored="false" />
+    <file path="/footer.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381915444721" ignored="false" />
     <file path="/index.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381910940011" ignored="false" />
-    <file path="/main.css" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381913212204" ignored="false" />
+    <file path="/main.css" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381915698492" ignored="false" />
     <file path="/Dummy.txt" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381901132343" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/caseSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381717192344" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/out/assets/js/api-list.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381799940600" ignored="false" />
@@ -45,10 +43,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="285" column="9" selection-start="5418" selection-end="5418" vertical-scroll-proportion="0.0">
+            <state line="208" column="10" selection-start="3855" selection-end="3855" vertical-scroll-proportion="0.42577487">
               <folding />
             </state>
           </provider>
@@ -57,16 +55,16 @@
       <file leaf-file-name="footer.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="18" selection-start="966" selection-end="966" vertical-scroll-proportion="-11.73913">
+            <state line="38" column="17" selection-start="1593" selection-end="1593" vertical-scroll-proportion="-17.304348">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regulation.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="regulation.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regulation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="41" selection-start="328" selection-end="328" vertical-scroll-proportion="0.37966102">
+            <state line="14" column="41" selection-start="328" selection-end="328" vertical-scroll-proportion="-9.73913">
               <folding />
             </state>
           </provider>
@@ -96,9 +94,9 @@
         <option value="$PROJECT_DIR$/simple-search.html" />
         <option value="$PROJECT_DIR$/cases.html" />
         <option value="$PROJECT_DIR$/header.html" />
+        <option value="$PROJECT_DIR$/regulation.html" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
-        <option value="$PROJECT_DIR$/regulation.html" />
       </list>
     </option>
   </component>
@@ -446,23 +444,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/regulation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="41" selection-start="328" selection-end="328" vertical-scroll-proportion="-9.73913">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="18" selection-start="966" selection-end="966" vertical-scroll-proportion="-11.73913">
+        <state line="38" column="17" selection-start="1593" selection-end="1593" vertical-scroll-proportion="-17.304348">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="9" selection-start="5418" selection-end="5418" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regulation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="41" selection-start="328" selection-end="328" vertical-scroll-proportion="0.37966102">
+        <state line="208" column="10" selection-start="3855" selection-end="3855" vertical-scroll-proportion="0.42577487">
           <folding />
         </state>
       </provider>
