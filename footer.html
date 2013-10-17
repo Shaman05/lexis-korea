@@ -20,6 +20,7 @@
     $(function(){
         navInit();
         tabInit();
+        topicInit();
 
         function navInit(){
             var $mainNav = $(".main-nav");
@@ -59,6 +60,12 @@
                 $content.each(function(i){
                     i !== index ? $(this).fadeOut(500) : $(this).fadeIn(500);
                 });
+            });
+        }
+
+        function topicInit(){
+            $(".topic").find(".btn-expand").click(function(){
+                $(this).toggleClass("on");
             });
         }
     });

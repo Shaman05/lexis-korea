@@ -410,6 +410,9 @@ a:hover{
 .tab-content-1 li a:hover,
 .topic .btn-expand{
     color: #009DDB;
+}
+.tab-nav-1.active, .tab-content h3,
+.tab-content-1 li a:hover{
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
@@ -563,6 +566,19 @@ a:hover{
     padding-left: 20px;
     background: url("../image/allicon.png") no-repeat -120px -100px;
     cursor: pointer;
+    width: 100px;
+}
+.topic .btn-expand.on{
+    background-position: -94px -100px;
+}
+.btn-expand .on-show{
+    display: none;
+}
+.btn-expand.on .on-show{
+    display: inline;
+}
+.btn-expand.on .off-show{
+    display: none;
 }
 .btn-expand span{
     background: #ffffff;
