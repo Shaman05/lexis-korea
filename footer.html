@@ -54,13 +54,11 @@
             var $nav = $slide.find(navSelector);
             $nav.click(function(){
                 var index = $(this).index(navSelector);
-                $(".tab-nav").attr("class", "tab-nav cf active-" + index);
-                $content.each(function(e, i){
-                    if(index !== i){
-                        $(this).stop().fadeOut(500);
-                    }
+                $slide.find(".active").removeClass("active");
+                $(this).addClass("active").parent().attr("class", "tab-nav cf active-" + index);
+                $content.each(function(i){
+                    i !== index ? $(this).fadeOut(500) : $(this).fadeIn(500);
                 });
-                $content.eq(index).fadeIn(500);
             });
         }
     });

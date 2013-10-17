@@ -12,7 +12,7 @@
     <file path="/test.php" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381570014246" ignored="false" />
     <file path="/header.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381910845778" ignored="false" />
     <file path="/dummy.xml" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381909799874" ignored="false" />
-    <file path="/footer.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381918264086" ignored="false" />
+    <file path="/footer.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381975662666" ignored="false" />
     <file path="/index.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381918048076" ignored="false" />
     <file path="/main.css" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381918062325" ignored="false" />
     <file path="/Dummy.txt" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381901132343" ignored="false" />
@@ -26,6 +26,8 @@
     <file path="/simple-search.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381911336834" ignored="false" />
     <file path="/regulation.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381913996603" ignored="false" />
     <file path="/cases.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381911345103" ignored="false" />
+    <file path="C:/wamp/www/myDev/jq-load.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381976629896" ignored="false" />
+    <file path="C:/wamp/www/myDev/a.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381976625810" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
           <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="381" column="12" selection-start="6937" selection-end="6937" vertical-scroll-proportion="0.65986395">
+                <state line="388" column="39" selection-start="7033" selection-end="7033" vertical-scroll-proportion="0.60544217">
                   <folding />
                 </state>
               </provider>
@@ -71,11 +73,10 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="53" column="47" selection-start="3316" selection-end="3335" vertical-scroll-proportion="-6.2608695">
+                <state line="159" column="34" selection-start="8442" selection-end="8442" vertical-scroll-proportion="-0.6086956">
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                     <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                    <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -84,7 +85,7 @@
           <file leaf-file-name="footer.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/footer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="56" column="74" selection-start="2303" selection-end="2303" vertical-scroll-proportion="0.6474576">
+                <state line="52" column="23" selection-start="2055" selection-end="2055" vertical-scroll-proportion="1.0813559">
                   <folding />
                 </state>
               </provider>
@@ -116,9 +117,9 @@
         <option value="$PROJECT_DIR$/cases.html" />
         <option value="$PROJECT_DIR$/header.html" />
         <option value="$PROJECT_DIR$/regulation.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/footer.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -408,7 +409,6 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -472,25 +472,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="381" column="12" selection-start="6937" selection-end="6937" vertical-scroll-proportion="0.65986395">
+        <state line="388" column="39" selection-start="7033" selection-end="7033" vertical-scroll-proportion="0.60544217">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="47" selection-start="3316" selection-end="3335" vertical-scroll-proportion="-6.2608695">
+        <state line="159" column="34" selection-start="8442" selection-end="8442" vertical-scroll-proportion="-0.6086956">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="74" selection-start="2303" selection-end="2303" vertical-scroll-proportion="0.6474576">
+        <state line="52" column="23" selection-start="2055" selection-end="2055" vertical-scroll-proportion="1.0813559">
           <folding />
         </state>
       </provider>
