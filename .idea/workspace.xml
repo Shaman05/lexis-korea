@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/app.js" afterPath="$PROJECT_DIR$/static/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docview.html" afterPath="$PROJECT_DIR$/docview.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regulation.html" afterPath="$PROJECT_DIR$/regulation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/test.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381570303027" ignored="false" />
     <file path="/test.php" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381570014246" ignored="false" />
     <file path="/header.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381910845778" ignored="false" />
-    <file path="/dummy.xml" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381991952745" ignored="false" />
+    <file path="/dummy.xml" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382002802612" ignored="false" />
     <file path="/footer.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381988268041" ignored="false" />
     <file path="/index.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381992127415" ignored="false" />
-    <file path="/main.css" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381993006042" ignored="false" />
-    <file path="/Dummy.txt" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381987045062" ignored="false" />
+    <file path="/main.css" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382004485023" ignored="false" />
+    <file path="/Dummy.txt" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381993476671" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/caseSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381717192344" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/out/assets/js/api-list.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381799940600" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/out/assets/js/apidocs.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381799940600" ignored="false" />
@@ -33,9 +30,18 @@
     <file path="C:/wamp/www/myDev/a.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381976625810" ignored="false" />
     <file path="C:/wamp/www/myDev/dd.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381977928499" ignored="false" />
     <file path="/dd.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381977922172" ignored="false" />
-    <file path="/detail.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381992164671" ignored="false" />
-    <file path="/docview.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381990733300" ignored="false" />
+    <file path="/detail.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381993216109" ignored="false" />
+    <file path="/docview.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382002801253" ignored="false" />
     <file path="/simple-header.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381992948636" ignored="false" />
+    <file path="/app.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382004353007" ignored="false" />
+    <file path="$PROJECT_DIR$/../jolnet/jol/document/DocView.aspx" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381993861032" ignored="false" />
+    <file path="$PROJECT_DIR$/../jolnet/jol/static/src/docviewer.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381994428588" ignored="false" />
+    <file path="/docviewer.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381994394939" ignored="false" />
+    <file path="$PROJECT_DIR$/../jolnet/jol/static/src/metadata/magazineDocTypeMap.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381997087955" ignored="false" />
+    <file path="/magazineDocTypeMap.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381997087955" ignored="false" />
+    <file path="$PROJECT_DIR$/../jolnet/jol/web.config" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382001397977" ignored="false" />
+    <file path="$PROJECT_DIR$/../jolnet/jol/static/src/magazineSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382001241058" ignored="false" />
+    <file path="/magazineSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382001206729" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +59,13 @@
     <favorites_list name="demo" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.31666666">
+    <splitter split-orientation="horizontal" split-proportion="0.49166667">
       <split-first>
         <leaf>
           <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="635" column="18" selection-start="11542" selection-end="11542" vertical-scroll-proportion="0.53017944">
+                <state line="172" column="17" selection-start="3086" selection-end="3086" vertical-scroll-proportion="0.7414966">
                   <folding />
                 </state>
               </provider>
@@ -87,10 +93,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="13" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0">
+                <state line="90" column="0" selection-start="2875" selection-end="2875" vertical-scroll-proportion="0.9459459">
                   <folding />
                 </state>
               </provider>
@@ -108,16 +114,16 @@
           <file leaf-file-name="docview.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/docview.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="32" selection-start="71" selection-end="71" vertical-scroll-proportion="-0.6956522">
+                <state line="4" column="31" selection-start="161" selection-end="168" vertical-scroll-proportion="-2.7826087">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="simple-header.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="simple-header.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/simple-header.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="24" selection-start="212" selection-end="223" vertical-scroll-proportion="0.18983051">
+                <state line="12" column="17" selection-start="361" selection-end="361" vertical-scroll-proportion="-8.347826">
                   <folding />
                 </state>
               </provider>
@@ -148,13 +154,13 @@
         <option value="$PROJECT_DIR$/simple-search.html" />
         <option value="$PROJECT_DIR$/cases.html" />
         <option value="$PROJECT_DIR$/header.html" />
-        <option value="$PROJECT_DIR$/static/js/app.js" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/detail.html" />
         <option value="$PROJECT_DIR$/regulation.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/docview.html" />
         <option value="$PROJECT_DIR$/simple-header.html" />
+        <option value="$PROJECT_DIR$/docview.html" />
+        <option value="$PROJECT_DIR$/static/js/app.js" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
       </list>
     </option>
@@ -441,13 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regulation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="18" selection-start="88" selection-end="88" vertical-scroll-proportion="-1.3913044">
@@ -469,23 +468,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docview.html">
+    <entry file="file://$PROJECT_DIR$/simple-header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="32" selection-start="71" selection-end="71" vertical-scroll-proportion="-0.6956522">
+        <state line="12" column="17" selection-start="361" selection-end="361" vertical-scroll-proportion="-8.347826">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-header.html">
+    <entry file="file://$PROJECT_DIR$/docview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="212" selection-end="223" vertical-scroll-proportion="0.18983051">
+        <state line="4" column="31" selection-start="161" selection-end="168" vertical-scroll-proportion="-2.7826087">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="0" selection-start="2875" selection-end="2875" vertical-scroll-proportion="0.9459459">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="635" column="18" selection-start="11542" selection-end="11542" vertical-scroll-proportion="0.53017944">
+        <state line="172" column="17" selection-start="3086" selection-end="3086" vertical-scroll-proportion="0.7414966">
           <folding />
         </state>
       </provider>

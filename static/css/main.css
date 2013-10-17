@@ -34,7 +34,7 @@ a:hover{
     *display: inline-block;
     _height: 1%;
 }
-.cf:before, .cf:after {
+.cf:after {
     visibility: hidden;
     display: block;
     font-size: 0;
@@ -168,6 +168,9 @@ a:hover{
     padding-left: 150px;
     margin-top: 24px;
     background: url("../image/logo-png8.png") no-repeat -10px 0;
+}
+.simple-header{
+    border-top: 3px solid #a6d1f4;
 }
 .simple-header .logo{
     margin-top: 2px;
@@ -645,4 +648,60 @@ a:hover{
 }
 .docview-page{
     padding-top: 0;
+}
+.toc-bar h4{
+    padding-left: 1em;
+    line-height: 38px;
+    font-size: 14px;
+    color: #999999;
+}
+.font-tool{
+    float: left;
+    margin: 9px 0 0 10px;
+}
+.search-tool{
+    float: right;
+    margin: 9px 10px 0 0;
+    box-shadow: 1px 1px 0 #cccccc;
+}
+.font-tool a{
+    float: left;
+    height: 18px;
+    line-height: 16px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin-right: -1px;
+    padding: 0 3px;
+    text-decoration: none;
+}
+.font-tool .font-size{
+    width: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #636363;
+    padding: 0;
+}
+.font-tool .no-bg{
+    border: none;
+    background: none;
+    line-height: 18px;
+    margin-right: 4px;
+}
+.search-tool input{
+    border: 1px solid #408CC8;
+    height: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+    width: 180px;
+    font-size: 12px;
+}
+.search-tool button{
+    background: #408CC8 url("../image/btn_find_01.gif") no-repeat -2px 0;
+    height: 18px;
+    width: 18px;
+    text-indent: -999px;
+    overflow: hidden;
+    border: none;
+    vertical-align: middle;
+    cursor: pointer;
 }

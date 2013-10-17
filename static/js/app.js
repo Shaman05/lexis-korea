@@ -11,9 +11,11 @@ $(function(){
     navInit();
     tabInit();
     topicInit();
+    splitter();
 
     function navInit(){
         var $mainNav = $(".main-nav");
+        if($mainNav.size() === 0)return;
         var navOffsetTop = $mainNav.offset().top;
         var navMap = {
             "index": 0,
@@ -71,5 +73,33 @@ $(function(){
         $items.find(".cate-more").click(function(){
             $(this).parent().toggleClass("more-show");
         });
+    }
+
+    function splitter(){
+        var $leftBtn = $(".splitter-left").find(".splitter-btn");
+        $leftBtn.data("data-expand", true);
+        $leftBtn.click(function(){
+            var isExpand = $(this).data("data-expand");
+            if(isExpand){
+                colSpan();
+                $(this).data("data-expand", false);
+            }else{
+                expand();
+                $(this).data("data-expand", true);
+            }
+        });
+
+        function colSpan(){
+            $(".left")
+                .css("width", "10px")
+                .find(".toc-bar h4,.toc").css("visibility", "hidden");
+            $(".right-content").css("margin-left", "-208px");
+        }
+        function expand(){
+            $(".left")
+                .css("width", "240px")
+                .find(".toc-bar h4,.toc").css("visibility", "visible");
+            $(".right-content").css("margin-left", "18px");
+        }
     }
 });
