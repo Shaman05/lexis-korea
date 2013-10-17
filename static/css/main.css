@@ -42,6 +42,29 @@ a:hover{
     clear: both;
     height: 0;
 }
+.splitter-left{
+    position: relative;
+}
+.splitter-btn{
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    line-height: 18px;
+    border: 1px solid #dddddd;
+    top: 50%;
+    margin-top: -11px;
+    color: #a9a9a9;
+    cursor: pointer;
+    letter-spacing: -3px;
+    background: #fafafa;
+}
+.splitter-btn:hover{
+    background: #efefef;
+}
+.splitter-left .splitter-btn{
+    border-radius: 0 3px 3px 0;
+    right: -12px;
+}
 
 /*frame*/
 .wrap{
@@ -51,6 +74,10 @@ a:hover{
 }
 .wrap-inner{
     padding-bottom: 80px;
+}
+.simple-page,
+.simple-page .contain{
+    background: #fafafa;
 }
 
 /*header*/
@@ -127,11 +154,13 @@ a:hover{
     background-position: -142px 1px;
 }
 .top-search,
-.header .logo{
+.header .logo,
+.simple-header .logo{
     margin-left: 40px;
     margin-right: 40px;
 }
-.header .logo{
+.header .logo,
+.simple-header .logo{
     float: left;
     height: 40px;
     overflow: hidden;
@@ -139,6 +168,9 @@ a:hover{
     padding-left: 150px;
     margin-top: 24px;
     background: url("../image/logo-png8.png") no-repeat -10px 0;
+}
+.simple-header .logo{
+    margin-top: 2px;
 }
 .logo h2{
     font-size: 16px;
@@ -315,12 +347,12 @@ a:hover{
     height: 10px;
     font-size: 0;
 }
-.block-left-280{
-    padding-left: 280px;
+.block-left-240{
+    padding-left: 240px;
 }
-.block-left-280 .left{
-    width: 280px;
-    margin-left: -280px;
+.block-left-240 .left{
+    width: 240px;
+    margin-left: -240px;
 }
 
 
@@ -591,19 +623,26 @@ a:hover{
     display: block;
 }
 
-/*regulation page*/
-.regulation-page .right-content{
+/*docview page*/
+.docview-page .right-content{
     margin-left: 18px;
 }
-.filter-box{
-    min-height: 300px;
-    border-radius: 3px;
-    border: 1px solid #dfdfdf;
-    background: #fafafa;
-}
-.list-bar{
+.doc-bar,.toc-bar{
     height: 38px;
     border: 1px solid #dfdfdf;
     border-radius: 3px 3px 0 0;
+}
+.doc-content,.toc-box{
+    min-height: 480px;
+    border: 1px solid #dddddd;
+    border-top: none;
+}
+.toc-box,.doc-bar,.toc-bar{
     background: #fafafa;
+}
+.doc-content{
+    background: #ffffff;
+}
+.docview-page{
+    padding-top: 0;
 }
