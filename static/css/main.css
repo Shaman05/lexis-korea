@@ -705,3 +705,27 @@ a:hover{
     vertical-align: middle;
     cursor: pointer;
 }
+.article-boy{
+    font-size: 13px;
+    color: #2A2927;
+    padding: 1.5em 2em;
+}
+.metadata{
+    border-collapse: collapse;
+    margin: 12px 0;
+    width: 100%;
+}
+.metadata caption{
+    display: none;
+}
+.metadata th,.metadata td{
+    border: 1px solid #D8D8D8;
+    padding: 4px 10px;
+}
+.metadata th{
+    text-align: right;
+    background: #F3F3F3;
+    color: #4F4F4F;
+}
+.metadata td{
+}
