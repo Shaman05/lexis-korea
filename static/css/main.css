@@ -558,7 +558,7 @@ a:hover{
     width: 32%;
 }
 .topic{
-    width: 67%;
+    width: 100%;
     position: relative;
 }
 .topic a,
@@ -694,7 +694,7 @@ a:hover{
 .search-tool input{
     border: 1px solid #408CC8;
     height: 16px;
-    line-height: 16px;
+    line-height: 20px;
     vertical-align: middle;
     width: 180px;
     font-size: 12px;
@@ -756,10 +756,17 @@ a:hover{
     color: #ffffff;
 }
 .tab-util{
-    height: 20px;
     padding: 7px 0;
     background: #F3F3F3;
     border: 1px solid #D8D8D8;
+}
+.search_result_num{
+    float: left;
+    margin-left: 10px;
+}
+.sort-bar, .paging{
+    float: right;
+    margin-right: 10px;
 }
 .tab-contents{
     border: 1px solid #D8D8D8;
