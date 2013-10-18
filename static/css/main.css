@@ -19,11 +19,15 @@ input{
 li{
     list-style: none;
 }
+a{
+    color: #4F4F4F;
+}
 a,
 .main-nav li a:hover,
 .tab-content li a,
 .more-link a:hover,
-.topic a:hover{
+.topic a:hover,
+.category a,.category a:hover{
     text-decoration: none;
 }
 a:hover{
@@ -326,7 +330,7 @@ a:hover{
 
 /*contain*/
 .contain{
-    padding: 24px 40px;
+    padding: 16px 40px;
     background: #ffffff;
 }
 .left{
@@ -728,4 +732,55 @@ a:hover{
     color: #4F4F4F;
 }
 .metadata td{
+}
+
+/*regulation page*/
+.category{
+    height: 24px;
+}
+.category li{
+    float: left;
+    border: 1px solid #bdbdbd;
+    margin-left: -1px;
+}
+.category a{
+    display: block;
+    padding: 2px 4px;
+}
+.category .active{
+    background: #696563;
+}
+.category .active a{
+    border-top: 2px solid #408CC8;
+    margin-top: -2px;
+    color: #ffffff;
+}
+.tab-util{
+    height: 20px;
+    padding: 7px 0;
+    background: #F3F3F3;
+    border: 1px solid #D8D8D8;
+}
+.tab-contents{
+    border: 1px solid #D8D8D8;
+    border-top: none;
+    padding-left: 188px;
+}
+.tab-left{
+    width: 188px;
+    float: left;
+    margin-left: -188px;
+}
+.tab-right{
+    min-height: 500px;
+    border-left: 1px solid #d8d8d8;
+    padding-left: 8px;
+}
+.tab-splitter{
+    width: 6px;
+    border-right: 1px solid #d8d8d8;
+    background: #eeeeee;
+    min-height: 500px;
+    height: 100%;
+    margin-left: -8px;
 }

@@ -13,6 +13,35 @@ $(function(){
     topicInit();
     splitter();
 
+    var setting = {
+        view: {
+            showIcon: showIconForTree
+        },
+        data: {
+            simpleData: {
+                enable: true
+            }
+        }
+    };
+
+    //该数据应该由服务器返回
+    var zNodes =[
+        { id:0, pId:0, name:"전체", open:true},
+        { id:1, pId:1, name:"법원종류", open:true},
+        { id:11, pId:1, name:"대법원(61)"},
+        { id:12, pId:1, name:"고등법원(9)"},
+        { id:13, pId:1, name:"하급심(28)"},
+        { id:2, pId:2, name:"판례등급", open:true},
+        { id:11, pId:2, name:"전원합의체(25)"},
+        { id:12, pId:2, name:"간행판결(72)"},
+        { id:13, pId:2, name:"미간행판결(1)"}
+    ];
+
+    function showIconForTree(treeId, treeNode) {
+        return !treeNode.isParent;
+    }
+    $.fn.zTree.init($("#tree"), setting, zNodes);
+
     function navInit(){
         var $mainNav = $(".main-nav");
         if($mainNav.size() === 0)return;
