@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/app.js" afterPath="$PROJECT_DIR$/static/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-search.html" afterPath="$PROJECT_DIR$/simple-search.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demo.iws" />
@@ -10,10 +11,10 @@
     <file path="/test.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381570303027" ignored="false" />
     <file path="/test.php" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381570014246" ignored="false" />
     <file path="/header.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382065965462" ignored="false" />
-    <file path="/dummy.xml" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382320192232" ignored="false" />
+    <file path="/dummy.xml" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382947775176" ignored="false" />
     <file path="/footer.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382065809673" ignored="false" />
     <file path="/index.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382320191212" ignored="false" />
-    <file path="/main.css" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382927733948" ignored="false" />
+    <file path="/main.css" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382948935003" ignored="false" />
     <file path="/Dummy.txt" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382924192826" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/caseSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381717192344" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/out/assets/js/api-list.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381799940600" ignored="false" />
@@ -22,7 +23,7 @@
     <file path="$USER_HOME$/Desktop/work/jol/API/bibliographySearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381718200402" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/magazineSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381718591292" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/util.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381806459807" ignored="false" />
-    <file path="/simple-search.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381911336834" ignored="false" />
+    <file path="/simple-search.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382948750602" ignored="false" />
     <file path="/regulation.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382068559891" ignored="false" />
     <file path="/cases.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381911345103" ignored="false" />
     <file path="C:/wamp/www/myDev/jq-load.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381976629896" ignored="false" />
@@ -44,9 +45,13 @@
     <file path="$PROJECT_DIR$/../jolnet/jol/css/jol3x.css" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382077305681" ignored="false" />
     <file path="C:/wamp/www/backbonejs/baseSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382081490295" ignored="false" />
     <file path="/baseSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382081485726" ignored="false" />
-    <file path="$PROJECT_DIR$/../jolnet/Resources/docxsl/Meta.xsl" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382936298654" ignored="false" />
+    <file path="$PROJECT_DIR$/../jolnet/Resources/docxsl/Meta.xsl" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382943233496" ignored="false" />
     <file path="/Meta.xsl" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382935491998" ignored="false" />
-    <file path="$PROJECT_DIR$/../jolnet/jol/static/src/caseSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382930201822" ignored="false" />
+    <file path="$PROJECT_DIR$/../jolnet/jol/static/src/caseSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382944768381" ignored="false" />
+    <file path="$PROJECT_DIR$/../jolnet/jol/home/BaseSearch.aspx" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382942302977" ignored="false" />
+    <file path="$PROJECT_DIR$/../jolnet/jol/static/src/searchCommon.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382945599957" ignored="false" />
+    <file path="/searchCommon.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382945154628" ignored="false" />
+    <file path="/caseSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382944756550" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +69,13 @@
     <favorites_list name="demo" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.27575758">
+    <splitter split-orientation="horizontal" split-proportion="0.33409092">
       <split-first>
         <leaf>
-          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="462" column="16" selection-start="8368" selection-end="8368" vertical-scroll-proportion="0.7414966">
+                <state line="827" column="19" selection-start="14975" selection-end="14975" vertical-scroll-proportion="0.6084829">
                   <folding />
                 </state>
               </provider>
@@ -80,10 +85,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="68" column="57" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.84339315">
+                <state line="49" column="33" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -111,6 +116,15 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="simple-search.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/simple-search.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="23" column="69" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.6474576">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-second>
     </splitter>
@@ -133,7 +147,6 @@
       <list>
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/simple-search.html" />
         <option value="$PROJECT_DIR$/cases.html" />
         <option value="$PROJECT_DIR$/detail.html" />
         <option value="$PROJECT_DIR$/simple-header.html" />
@@ -142,8 +155,9 @@
         <option value="$PROJECT_DIR$/regulation.html" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/static/js/app.js" />
+        <option value="$PROJECT_DIR$/simple-search.html" />
+        <option value="$PROJECT_DIR$/static/css/main.css" />
       </list>
     </option>
   </component>
@@ -432,11 +446,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simple-header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="17" selection-start="361" selection-end="361" vertical-scroll-proportion="-8.347826" />
@@ -466,9 +475,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+    <entry file="file://$PROJECT_DIR$/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="462" column="16" selection-start="8368" selection-end="8368" vertical-scroll-proportion="0.7414966">
+        <state line="6" column="71" selection-start="262" selection-end="262" vertical-scroll-proportion="8.347826">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="33" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -484,16 +500,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.html">
+    <entry file="file://$PROJECT_DIR$/simple-search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="71" selection-start="262" selection-end="262" vertical-scroll-proportion="8.347826">
+        <state line="23" column="69" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.6474576">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/app.js">
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="57" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.84339315">
+        <state line="827" column="19" selection-start="14975" selection-end="14975" vertical-scroll-proportion="0.6084829">
           <folding />
         </state>
       </provider>

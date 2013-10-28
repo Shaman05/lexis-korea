@@ -1,5 +1,37 @@
 <?php include('header.html') ?>
 <div class="contain simple-search-page">
-    <h4>simple search</h4>
+    <div class="block form-input-wrap">
+        <div class="keyword-filter">
+            keyword
+        </div>
+        <div class="form-input">
+            <h4>Content Types</h4>
+            <form action="#">
+                <ul class="cf">
+                    <li><label><input type="checkbox" value="0" id="simCheckAll0">&nbsp;&nbsp;All</label></li>
+                    <li><label><input type="checkbox" value="1" id="simCheckAll1">&nbsp;&nbsp;Overview</label></li>
+                    <li><label><input type="checkbox" value="2" id="simCheckAll2">&nbsp;&nbsp;Checklists</label></li>
+                    <li><label><input type="checkbox" value="3" id="simCheckAll3">&nbsp;&nbsp;Practice Notes </label></li>
+                    <li><label><input type="checkbox" value="4" id="simCheckAll4">&nbsp;&nbsp;Templates</label></li>
+                    <li><label><input type="checkbox" value="5" id="simCheckAll5">&nbsp;&nbsp;Practical News</label></li>
+                    <li><label><input type="checkbox" value="6" id="simCheckAll6">&nbsp;&nbsp;Regulations</label></li>
+                    <li><label><input type="checkbox" value="7" id="simCheckAll7">&nbsp;&nbsp;Cases</label></li>
+                    <li><label><input type="checkbox" value="8" id="simCheckAll8">&nbsp;&nbsp;Government forms </label></li>
+                    <li><label><input type="checkbox" value="9" id="simCheckAll9">&nbsp;&nbsp;Smart chart</label></li>
+                </ul>
+                <div class="cf keyword-input">
+                    <label for="keyword">Search</label>
+                    <input name="keyword" id="keyword" class="keyword" type="text"/>
+                    <input type="submit" value="Submit"/>
+                </div>
+                <div class="cf logic-btn">
+                    <a class="logic-btn-and" href="javascript:" title="AND">AND</a>
+                    <a class="logic-btn-or" href="javascript:" title="OR">OR</a>
+                    <a class="logic-btn-not" href="javascript:" title="NOT">NOT</a>
+                    <a class="logic-btn-help" href="javascript:" title="HELP">HELP</a>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
 <?php include('footer.html') ?>

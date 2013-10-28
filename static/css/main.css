@@ -517,7 +517,7 @@ a:hover{
 .newsletter li{
     height: 22px;
 }
-.newsletter li input{
+.newsletter li input, .form-input li input{
     vertical-align: -2px;
 }
 .newsletter .email{
@@ -785,4 +785,69 @@ a:hover{
     min-height: 500px;
     height: 100%;
     margin-left: -8px;
+}
+
+/*simple-search*/
+.simple-search-page .form-input-wrap{
+    padding-right: 22%;
+}
+.keyword-filter{
+    float: right;
+    width: 22%;
+    margin-right: -22%;
+
+}
+.form-input h4{
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 0 20px;
+}
+.form-input li{
+    width: 18%;
+    margin: 0 2% 1% 0;
+    float: left;
+}
+.keyword-input{
+    padding-top: 30px;
+}
+.keyword-input label,.keyword-input input{
+    float: left;
+    height: 38px;
+}
+.keyword-input label{
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    line-height: 40px;
+}
+.keyword-input .keyword{
+    border: 1px solid #CDCDCD;
+    margin: 0 15px 0 25px;
+    position: relative;
+    width: 70%;
+    min-width: 500px;
+}
+.logic-btn a{
+    float: left;
+    height: 14px;
+    width: 56px;
+    margin: 10px 10px 0 0;
+    background-image: url("../image/allicon.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -99px;
+}
+.logic-btn-and{
+    background-position: -71px 0;
+}
+.logic-btn-or{
+    background-position: -150px 0;
+}
+.logic-btn-not{
+    background-position: 0 0;
+}
+.logic-btn .logic-btn-help{
+    width: 26px;
+    background-position: -220px 0;
 }
