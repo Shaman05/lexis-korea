@@ -60,10 +60,15 @@ $(function(){
                 $mainNav.css("position", "relative");
             }
         });
+        var active = 0;
         for(var name in navMap){
-            var active = url.indexOf(name) >= 0 ? navMap[name] : 0;
-            $mainNav.find(">ul>li").eq(active).addClass("active");
+            if(url.indexOf(name) >= 0){
+                active = navMap[name];
+                break;
+            }
+
         }
+        $mainNav.find(">ul>li").eq(active).addClass("active");
     }
 
     function tabInit(){

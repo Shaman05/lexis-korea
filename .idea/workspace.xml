@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/app.js" afterPath="$PROJECT_DIR$/static/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.html" afterPath="$PROJECT_DIR$/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demo.iws" />
@@ -35,7 +32,7 @@
     <file path="/detail.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381993216109" ignored="false" />
     <file path="/docview.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382060505172" ignored="false" />
     <file path="/simple-header.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381992948636" ignored="false" />
-    <file path="/app.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382938517116" ignored="false" />
+    <file path="/app.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382939867191" ignored="false" />
     <file path="$PROJECT_DIR$/../jolnet/jol/document/DocView.aspx" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382077305681" ignored="false" />
     <file path="$PROJECT_DIR$/../jolnet/jol/static/src/docviewer.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382077305681" ignored="false" />
     <file path="/docviewer.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381994394939" ignored="false" />
@@ -86,7 +83,16 @@
           <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="83" column="34" selection-start="2503" selection-end="2503" vertical-scroll-proportion="0.42577487">
+                <state line="68" column="57" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.84339315">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/header.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="71" selection-start="262" selection-end="262" vertical-scroll-proportion="8.347826">
                   <folding />
                 </state>
               </provider>
@@ -95,7 +101,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="90" column="11" selection-start="5257" selection-end="5257" vertical-scroll-proportion="-24.347826">
+                <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="-0.0">
                   <folding>
                     <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
                     <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
@@ -161,7 +167,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -172,7 +178,79 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -236,7 +314,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761312" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -315,7 +393,9 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/footer.html">
@@ -369,7 +449,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regulation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="457" selection-end="457" vertical-scroll-proportion="0.32542372" />
+        <state line="12" column="21" selection-start="457" selection-end="457" vertical-scroll-proportion="0.32542372">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docview.html">
@@ -377,26 +459,10 @@
         <state line="44" column="29" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.3220339" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="71" selection-start="262" selection-end="262" vertical-scroll-proportion="0.027118644" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="127" selection-start="743" selection-end="743" vertical-scroll-proportion="0.35254237">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="11" selection-start="5257" selection-end="5257" vertical-scroll-proportion="-24.347826">
-          <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -407,9 +473,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="-0.0">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="71" selection-start="262" selection-end="262" vertical-scroll-proportion="8.347826">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="34" selection-start="2503" selection-end="2503" vertical-scroll-proportion="0.42577487">
+        <state line="68" column="57" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.84339315">
           <folding />
         </state>
       </provider>
