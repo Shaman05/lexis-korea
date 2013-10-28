@@ -1,10 +1,10 @@
 <?php include('header.html'); ?>
-<div class="contain home-page">
-    <div class="cf block-right-320">
-        <div class="left">
-            <div class="slide">
-                <div class="tab-content">
-                    <div style="display: block" class="tab-content-1">
+<div class="home-page">
+    <div class="slide">
+        <div class="contain">
+            <div class="tab-content">
+                <div class="cf block-right-320 tab-content-1">
+                    <div class="left">
                         <h3>Latest regulation information</h3>
                         <ul>
                             <li>
@@ -27,7 +27,23 @@
                             <a href="#"><span>View all</span></a>
                         </div>
                     </div>
-                    <div class="tab-content-2">
+                    <div class="right">
+                        <div class="newsletter">
+                            <form action="#">
+                                <ul>
+                                    <li class="tab-nav-1"><label><input type="checkbox"/> Latest Regulation information</label></li>
+                                    <li class="tab-nav-2"><label><input type="checkbox"/> Latest Cases</label></li>
+                                </ul>
+                                <div class="email">
+                                    <label>E-mail: <input type="text"/></label>
+                                </div>
+                                <input class="btn-submit" type="submit" value="Subscribe"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="cf block-right-320 tab-content-2">
+                    <div class="left">
                         <h3>Latest Cases</h3>
                         <ul>
                             <li>
@@ -50,31 +66,33 @@
                             <a href="#"><span>View all</span></a>
                         </div>
                     </div>
-                </div>
-                <div class="tab-nav cf active-0">
-                    <div class="arrow"></div>
-                    <span class="tab-nav-1 active"><em></em>Latest Regulation</span>
-                    <span class="tab-nav-2"><em></em>Latest Cases</span>
+                    <div class="right">
+                        <div class="newsletter">
+                            <form action="#">
+                                <ul>
+                                    <li class="tab-nav-1"><label><input type="checkbox"/> Latest Regulation information</label></li>
+                                    <li class="tab-nav-2"><label><input type="checkbox"/> Latest Cases</label></li>
+                                </ul>
+                                <div class="email">
+                                    <label>E-mail: <input type="text"/></label>
+                                </div>
+                                <input class="btn-submit" type="submit" value="Subscribe"/>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="right">
-            <div class="newsletter">
-                <form action="#">
-                    <ul>
-                        <li class="tab-nav-1"><label><input type="checkbox"/> Latest Regulation information</label></li>
-                        <li class="tab-nav-2"><label><input type="checkbox"/> Latest Cases</label></li>
-                    </ul>
-                    <div class="email">
-                        <label>E-mail: <input type="text"/></label>
-                    </div>
-                    <input class="btn-submit" type="submit" value="Subscribe"/>
-                </form>
-            </div>
+        <div class="tab-nav cf active-0">
+            <div class="arrow"></div>
+            <span class="tab-nav-1 active"><em></em>Latest Regulation</span>
+            <span class="tab-nav-2"><em></em>Latest Cases</span>
         </div>
     </div>
+
     <div class="blank-10"></div>
-    <div class="cf">
+
+    <div class="cf contain">
         <div class="left topic">
             <dl class="cf">
                <dt>Topic</dt>

@@ -61,10 +61,8 @@ $(function(){
             }
         });
         for(var name in navMap){
-            if(url.indexOf(name) >= 0){
-                $mainNav.find(">ul>li").eq(navMap[name]).addClass("active");
-                return;
-            }
+            var active = url.indexOf(name) >= 0 ? navMap[name] : 0;
+            $mainNav.find(">ul>li").eq(active).addClass("active");
         }
     }
 
@@ -74,14 +72,32 @@ $(function(){
         var navSelector = ".tab-nav > span";
         var $content = $slide.find(contentSelector);
         var $nav = $slide.find(navSelector);
+        var $tabContent = $(".tab-content");
+        var stepWidth = $tabContent.width();
+        var index = 0;
+        var timer = null;
+        $content.css("width", stepWidth - parseInt($content.css("padding-right"))).eq(0).fadeIn(500);
+        $tabContent.css("width", 9999);
+        autoPlay();
         $nav.click(function(){
-            var index = $(this).index(navSelector);
-            $slide.find(".active").removeClass("active");
-            $(this).addClass("active").parent().attr("class", "tab-nav cf active-" + index);
-            $content.each(function(i){
-                i !== index ? $(this).fadeOut(500) : $(this).fadeIn(500);
-            });
+            clearInterval(timer);
+            index = $(this).index(navSelector);
+            play(index);
+            autoPlay();
         });
+
+        function play(index){
+            $slide.find(".active").removeClass("active");
+            $nav.eq(index).addClass("active").parent().attr("class", "tab-nav cf active-" + index);
+            $tabContent.stop().animate({marginLeft: - index*stepWidth}, 500);
+        }
+
+        function autoPlay(){
+            timer = setInterval(function(){
+                index = ++index % $content.size();
+                play(index);
+            }, 3000);
+        }
     }
 
     function topicInit(){

@@ -330,8 +330,9 @@ a:hover{
 
 /*contain*/
 .contain{
-    padding: 16px 40px;
+    margin: 16px 40px;
     background: #ffffff;
+    overflow: hidden;
 }
 .left{
     float: left;
@@ -393,14 +394,13 @@ a:hover{
 
 /*home-page*/
 .slide{
-    padding-right: 20px;
 }
 .tab-content{
-    height: 210px;
+    height: 250px;
 }
 .slide .tab-nav{
     height: 16px;
-    padding: 6px 0 6px 10px;
+    padding: 6px 0 6px 40px;
     background: #F9F9F9;
     border-width: 1px 0;
     border-color: #EEEEEE;
@@ -410,7 +410,6 @@ a:hover{
 .tab-nav .arrow{
     position: absolute;
     top: -7px;
-
     height: 7px;
     width: 16px;
     background: url("../image/allicon.png") no-repeat -170px -25px;
@@ -455,27 +454,25 @@ a:hover{
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
-.tab-content{
+.tab-content.contain{
     position: relative;
+    padding-bottom: 0;
 }
 .tab-content .tab-content-1,
 .tab-content .tab-content-2{
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
+    float: left;
 }
 .tab-content h3{
     font-size: 28px;
     font-weight: normal;
-    height: 50px;
-    line-height: 42px;
+    height: 60px;
+    line-height: 50px;
 }
-.tab-content ul{
-    height: 120px;
+.tab-content .left ul{
+    height: 140px;
     overflow: hidden;
 }
-.tab-content li,
+.tab-content .left li,
 .tab-aside-content h4{
     padding: 0 20px 0 10px;
     background: url("../image/allicon.png") no-repeat -194px -61px;
@@ -512,12 +509,10 @@ a:hover{
     background: url("../image/allicon.png") no-repeat -74px -90px;
 }
 .newsletter{
-    width: 320px;
-    height: 243px;
-    background: url("../image/sub.png") no-repeat 0 0;
-}
-.newsletter form{
+    width: 265px;
+    height: 165px;
     padding: 78px 0 0 55px;
+    background: url("../image/sub.png") no-repeat 0 0;
 }
 .newsletter li{
     height: 22px;
