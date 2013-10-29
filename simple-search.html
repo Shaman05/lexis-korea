@@ -1,13 +1,18 @@
 <?php include('header.html') ?>
 <div class="contain simple-search-page">
-    <div class="block form-input-wrap">
+    <div class="cf form-input-wrap">
         <div class="keyword-filter">
-            keyword
+            <dl>
+                <dt>Search Records</dt>
+                <dd><span>keywords:</span><a href="#">Civil law</a></dd>
+                <dd><span>keywords:</span><a href="#">employment</a></dd>
+                <dd><span>keywords:</span><a href="#">Income Tax of Domestic Capital Enterprise</a></dd>
+            </dl>
         </div>
         <div class="form-input">
-            <h4>Content Types</h4>
             <form action="#">
-                <ul class="cf">
+                <h4>Content Types</h4>
+                <ul class="cf content-type">
                     <li><label><input type="checkbox" value="0" id="simCheckAll0">&nbsp;&nbsp;All</label></li>
                     <li><label><input type="checkbox" value="1" id="simCheckAll1">&nbsp;&nbsp;Overview</label></li>
                     <li><label><input type="checkbox" value="2" id="simCheckAll2">&nbsp;&nbsp;Checklists</label></li>
@@ -21,8 +26,18 @@
                 </ul>
                 <div class="cf keyword-input">
                     <label for="keyword">Search</label>
-                    <input name="keyword" id="keyword" class="keyword" type="text"/>
-                    <input type="submit" value="Submit"/>
+                    <div class="cf input-inner">
+                        <input name="keyword" id="keyword" class="keyword" type="text"/>
+                        <div class="his">
+                            <em>icon</em>
+                            <span id="selected">All Fields</span>
+                            <ul>
+                                <li><a href="javascript:">All Fields</a></li>
+                                <li><a href="javascript:">Title Only</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <input class="submit" type="submit" value="Submit"/>
                 </div>
                 <div class="cf logic-btn">
                     <a class="logic-btn-and" href="javascript:" title="AND">AND</a>

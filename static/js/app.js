@@ -8,10 +8,11 @@
  * Version 3.7
  */
 $(function(){
-    navInit();
-    tabInit();
-    topicInit();
-    splitter();
+    navInit();  //垂直滚动菜单定位、当前栏目高亮
+    tabInit();  //首页内容轮播
+    topicInit(); //首页topic效果
+    splitter();  //详细内容页分割
+    simpleSearchInit(); //简单搜索页
 
     var setting = {
         view: {
@@ -151,5 +152,32 @@ $(function(){
                 .find(".toc-bar h4,.toc").css("visibility", "visible");
             $(".right-content").css("margin-left", "18px");
         }
+    }
+
+    function simpleSearchInit(){
+        var $his = $(".his");
+        var $selected = $("#selected");
+        var $list = $his.find("ul");
+        var $logic = $(".logic-btn");
+        var $keyword = $("#keyword");
+        var $logicMap = {
+            "AND": " ++ ",
+            "OR": " -- ",
+            "NOT": " ! "
+        };
+        $his.hover(function(){
+            $list.slideDown(100);
+        }, function(){
+            $list.slideUp(100);
+        }).find("a").click(function(){
+            $selected.text($(this).text());
+        });
+        $logic.find("a").click(function(){
+            var type = $(this).attr("title");
+            var cacheText = $keyword.val();
+            if($logicMap[type]){
+                $keyword.val(cacheText + $logicMap[type]);
+            }
+        });
     }
 });

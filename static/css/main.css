@@ -788,14 +788,23 @@ a:hover{
 }
 
 /*simple-search*/
+.simple-search-page{
+    overflow: visible;
+}
 .simple-search-page .form-input-wrap{
     padding-right: 22%;
 }
 .keyword-filter{
     float: right;
-    width: 22%;
-    margin-right: -22%;
-
+    width: 28%;
+    margin-right: -28%;
+}
+.form-input{
+    float: left;
+    width: 100%;
+}
+.form-input form{
+    padding-left: 2em;
 }
 .form-input h4{
     color: #333333;
@@ -803,15 +812,15 @@ a:hover{
     font-weight: bold;
     padding: 10px 0 20px;
 }
-.form-input li{
+.form-input .content-type li{
     width: 18%;
     margin: 0 2% 1% 0;
     float: left;
 }
 .keyword-input{
-    padding-top: 30px;
+    padding-top: 16px;
 }
-.keyword-input label,.keyword-input input{
+.keyword-input label,.keyword-input input, .keyword-input .input-inner{
     float: left;
     height: 38px;
 }
@@ -819,14 +828,89 @@ a:hover{
     font-size: 14px;
     font-weight: bold;
     color: #333;
-    line-height: 40px;
+    line-height: 38px;
+    width: 78px;
 }
-.keyword-input .keyword{
+.keyword-input .input-inner{
     border: 1px solid #CDCDCD;
-    margin: 0 15px 0 25px;
     position: relative;
     width: 70%;
     min-width: 500px;
+    background: url("../image/allicon.png") no-repeat scroll -26px -119px rgba(0, 0, 0, 0);
+}
+.keyword-input .keyword{
+    color: #EF003D;
+    font-size: 20px;
+    line-height: 38px;
+    border: none;
+    margin: 0 2px 0 38px;
+    display: block;
+    width: 78%;
+}
+.keyword-input .his{
+    width: 15%;
+    height: 36px;
+    background: #ECECEC;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    text-indent: 16px;
+}
+.his span{
+    display: block;
+    height: 100%;
+    padding-right: 24px;
+    line-height: 36px;
+}
+.his em{
+    height: 9px;
+    position: absolute;
+    right: 4px;
+    top: 15px;
+    width: 15px;
+    overflow: hidden;
+    text-indent: -99px;
+    background: url("../image/allicon.png") no-repeat scroll -219px -130px rgba(0, 0, 0, 0);
+}
+.his ul{
+    position: absolute;
+    width: 100%;
+    top: 37px;
+    right: -2px;
+    padding: 0 0 1px 1px;
+    border: 1px solid #CDCDCD;
+    border-top: none;
+    z-index: 999;
+    background: #ffffff;
+    display: none;
+}
+.his li a{
+    display: block;
+    line-height: 34px;
+    margin-right: 1px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+.his li a:hover{
+    background: #009ddb;
+    color: #ffffff;
+    text-decoration: none;
+}
+.keyword-input .submit{
+    background: #009DDB;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 18px;
+    text-align: center;
+    width: 75px;
+    border: none;
+}
+.logic-btn{
+    padding-left: 78px;
 }
 .logic-btn a{
     float: left;
@@ -850,4 +934,37 @@ a:hover{
 .logic-btn .logic-btn-help{
     width: 26px;
     background-position: -220px 0;
+}
+.keyword-filter dl{
+    border-left: 1px solid #cdcdcd;
+    padding-bottom: 116px;
+}
+.keyword-filter dt{
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 10px 20px 10px;
+}
+.keyword-filter dd{
+    padding: 10px 10px 8px;
+    border-bottom: 1px dotted #cdcdcd;
+}
+.keyword-filter dd span{
+    background: url("../image/allicon.png") no-repeat -1px -163px;
+    margin-right: 5px;
+    padding: 21px 0 0 76px;
+    height: 0;
+    width: 0;
+    font-size: 0;
+    overflow: hidden;
+    vertical-align: bottom;
+    zoom: 1;
+}
+.keyword-filter dd a{
+    color: #009DDB;
+    vertical-align: 3px;
+    *vertical-align: -4px;
+}
+.keyword-filter dd a:hover{
+    text-decoration: none;
 }
