@@ -13,35 +13,8 @@ $(function(){
     topicInit(); //首页topic效果
     splitter();  //详细内容页分割
     simpleSearchInit(); //简单搜索页
-
-    var setting = {
-        view: {
-            showIcon: showIconForTree
-        },
-        data: {
-            simpleData: {
-                enable: true
-            }
-        }
-    };
-
-    //该数据应该由服务器返回
-    var zNodes =[
-        { id:0, pId:0, name:"전체", open:true},
-        { id:1, pId:1, name:"법원종류", open:true},
-        { id:11, pId:1, name:"대법원(61)"},
-        { id:12, pId:1, name:"고등법원(9)"},
-        { id:13, pId:1, name:"하급심(28)"},
-        { id:2, pId:2, name:"판례등급", open:true},
-        { id:11, pId:2, name:"전원합의체(25)"},
-        { id:12, pId:2, name:"간행판결(72)"},
-        { id:13, pId:2, name:"미간행판결(1)"}
-    ];
-
-    function showIconForTree(treeId, treeNode) {
-        return !treeNode.isParent;
-    }
-    $.fn.zTree.init($("#tree"), setting, zNodes);
+    advSearchInit(); //高级搜索
+    logicBtnInit(); //逻辑按钮
 
     function navInit(){
         var $mainNav = $(".main-nav");
@@ -63,7 +36,7 @@ $(function(){
         });
         var active = 0;
         for(var name in navMap){
-            if(url.indexOf(name) >= 0){
+            if(navMap.hasOwnProperty(name) && url.indexOf(name) >= 0){
                 active = navMap[name];
                 break;
             }
@@ -158,13 +131,6 @@ $(function(){
         var $his = $(".his");
         var $selected = $("#selected");
         var $list = $his.find("ul");
-        var $logic = $(".logic-btn");
-        var $keyword = $("#keyword");
-        var $logicMap = {
-            "AND": " ++ ",
-            "OR": " -- ",
-            "NOT": " ! "
-        };
         $his.hover(function(){
             $list.slideDown(100);
         }, function(){
@@ -172,12 +138,43 @@ $(function(){
         }).find("a").click(function(){
             $selected.text($(this).text());
         });
-        $logic.find("a").click(function(){
+    }
+
+    function logicBtnInit(){
+        var $logicMap = {
+            "AND": " ++ ",
+            "OR": " -- ",
+            "NOT": " ! "
+        };
+        $(".logic-btn").find("a").live("click", function(e){
             var type = $(this).attr("title");
-            var cacheText = $keyword.val();
+            var $clickFor = $("#" + $(this).parent().attr("data-clickFor"));
+            var cacheText = $clickFor.val();
             if($logicMap[type]){
-                $keyword.val(cacheText + $logicMap[type]);
+                $clickFor.val(cacheText + $logicMap[type]);
             }
         });
+    }
+
+    function advSearchInit(){
+        var tplDir = "./ajax-tpl/";
+        var tplType = ".html";
+        var $form = $("#ajax-form-content");
+        var $nav = $("#left-nav");
+        var defaultForm = $nav.find(".active").find("a").attr("data-tpl");
+        if(defaultForm){
+            loadTpl(tplDir + defaultForm + tplType);
+        }
+        $nav.find("a").click(function(){
+            $nav.find(".active").removeClass("active");
+            var form = $(this).attr("data-tpl");
+            loadTpl(tplDir + form + tplType, $(this));
+        });
+        function loadTpl(url, $target){
+            $form.html("Loading ...").load(url, function(){
+                $target && $target.parent("li").addClass("active");
+                //todo..
+            });
+        }
     }
 });

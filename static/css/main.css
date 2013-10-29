@@ -26,8 +26,7 @@ a,
 .main-nav li a:hover,
 .tab-content li a,
 .more-link a:hover,
-.topic a:hover,
-.category a,.category a:hover{
+.topic a:hover{
     text-decoration: none;
 }
 a:hover{
@@ -344,7 +343,7 @@ a:hover{
     padding-right: 320px;
 }
 .block-right-320 .left{
-    width: 100%;
+    width: 90%;
 }
 .block-right-320 .right{
     width: 320px;
@@ -547,7 +546,9 @@ a:hover{
     background: #FAFAFA;
     border: 1px solid #CDCDCD;
     height: 25px;
-    outline: medium none;
+    line-height: 25px;
+    outline: none;
+    *vertical-align: -6px;
 }
 .aside{
     width: 32%;
@@ -587,7 +588,7 @@ a:hover{
     margin-bottom: 1em;
 }
 .topic .cate-more{
-    background: url("../image/allicon.png") no-repeat scroll -2px -100px rgba(0, 0, 0, 0);
+    background: url("../image/allicon.png") no-repeat -2px -100px;
     cursor: pointer;
     height: 14px;
     width: 42px;
@@ -729,64 +730,6 @@ a:hover{
 .metadata td{
 }
 
-/*regulation page*/
-.category{
-    height: 24px;
-}
-.category li{
-    float: left;
-    border: 1px solid #bdbdbd;
-    margin-left: -1px;
-}
-.category a{
-    display: block;
-    padding: 2px 4px;
-}
-.category .active{
-    background: #696563;
-}
-.category .active a{
-    border-top: 2px solid #408CC8;
-    margin-top: -2px;
-    color: #ffffff;
-}
-.tab-util{
-    padding: 7px 0;
-    background: #F3F3F3;
-    border: 1px solid #D8D8D8;
-}
-.search_result_num{
-    float: left;
-    margin-left: 10px;
-}
-.sort-bar, .paging{
-    float: right;
-    margin-right: 10px;
-}
-.tab-contents{
-    border: 1px solid #D8D8D8;
-    border-top: none;
-    padding-left: 188px;
-}
-.tab-left{
-    width: 188px;
-    float: left;
-    margin-left: -188px;
-}
-.tab-right{
-    min-height: 500px;
-    border-left: 1px solid #d8d8d8;
-    padding-left: 8px;
-}
-.tab-splitter{
-    width: 6px;
-    border-right: 1px solid #d8d8d8;
-    background: #eeeeee;
-    min-height: 500px;
-    height: 100%;
-    margin-left: -8px;
-}
-
 /*simple-search*/
 .simple-search-page{
     overflow: visible;
@@ -836,7 +779,7 @@ a:hover{
     position: relative;
     width: 70%;
     min-width: 500px;
-    background: url("../image/allicon.png") no-repeat scroll -26px -119px rgba(0, 0, 0, 0);
+    background: url("../image/allicon.png") no-repeat -26px -119px;
 }
 .keyword-input .keyword{
     color: #EF003D;
@@ -872,7 +815,7 @@ a:hover{
     width: 15px;
     overflow: hidden;
     text-indent: -99px;
-    background: url("../image/allicon.png") no-repeat scroll -219px -130px rgba(0, 0, 0, 0);
+    background: url("../image/allicon.png") no-repeat -219px -130px;
 }
 .his ul{
     position: absolute;
@@ -909,7 +852,7 @@ a:hover{
     width: 75px;
     border: none;
 }
-.logic-btn{
+.form-input .logic-btn{
     padding-left: 78px;
 }
 .logic-btn a{
@@ -968,3 +911,107 @@ a:hover{
 .keyword-filter dd a:hover{
     text-decoration: none;
 }
+
+/*advance search*/
+.adv-search-page{
+    padding-left: 220px;
+    overflow: hidden;
+}
+.left-nav,.main{
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+}
+.left-nav{
+    width: 220px;
+    float: left;
+    margin-left: -220px;
+    background: #F3F3F3;
+}
+.main{
+    border-left: 1px solid #CDCDCD;
+    height: 100%;
+    min-height: 500px;
+}
+.left-nav ul{
+   padding: 30px 5px 20px 15px
+}
+.left-nav li{
+    padding-right: 8px;
+    margin-bottom: 5px;
+    position: relative;
+
+}
+.left-nav a{
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+    border: 1px solid #F3F3F3;
+    background: #F3F3F3;
+    text-decoration: none;
+    font-size: 12px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.left-nav li em{
+    opacity: 0;
+    display: none\9;
+    height: 12px;
+    position: absolute;
+    right: 1px;
+    top: 15px;
+    width: 8px;
+    text-indent: -99px;
+    overflow: hidden;
+    background: url("../image/allicon.png") no-repeat 0 -22px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+.left-nav .active a,.left-nav li:hover a{
+    border-color: #CDCDCD;
+    background: #ffffff;
+}
+.left-nav .active em,.left-nav li:hover em{
+    opacity: 1;
+    display: block\9;
+}
+.adv-form-wrap{
+    padding: 20px 0 100px 20px;
+}
+.adv-form-wrap table{
+    width: 98%;
+}
+.adv-form-wrap .input-text{
+    background: #ffffff;
+    border: 1px solid #CDCDCD;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    outline: none;
+    padding: 0 5px;
+    width: 70%
+}
+.adv-form-wrap .input-text-date{
+    width: 100px;
+}
+.adv-form-wrap th, .adv-form-wrap td{
+    padding-top: 20px;
+}
+.adv-form-wrap th{
+    width: 20%;
+    min-width: 120px;
+    line-height: 32px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+    text-align: right;
+    padding-right: 24px;
+}
+.adv-form-wrap .tips{
+    line-height: 20px;
+    color: #999999;
+    text-indent: -1px;
+}
+
+/*regulation page*/
