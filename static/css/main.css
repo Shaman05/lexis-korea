@@ -1015,3 +1015,86 @@ a:hover{
 }
 
 /*regulation page*/
+.regulation-page{
+    margin-top: 0;
+}
+.keyword-scope{
+    background: #FBFBFB;
+    padding: 0 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.keyword-scope .value{
+    color: #CC0033;
+    margin-left: 10px;
+}
+.select-scope{
+    margin: 16px 0 30px;
+    min-width: 1200px;
+}
+.search-content{
+    padding-left: 220px;
+}
+.left-panel{
+    float: left;
+    width: 220px;
+    margin-left: -220px;
+}
+.result-wrap{
+    border-left: 1px solid #cccccc;
+    min-height: 400px;
+}
+.select-type-wrap{
+    background: #FFFFFF url("../image/allicon.png") no-repeat 45px -15px;
+    border: 1px solid #C7D1C9;
+    cursor: pointer;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 20px;
+    position: relative;
+    width: 180px;
+    z-index: 444;
+    vertical-align: middle;
+}
+.select-type-wrap .selected{
+    display: block;
+    margin: 0 28px 0 6px;
+    background: #FFFFFF;
+}
+.select-scope li{
+    float: left;
+    height: 14px;
+    border-left: 1px solid #999999;
+    padding: 0 6px;
+    position: relative;
+}
+.select-scope li a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    margin-top: -14px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+}
+.select-scope li em{
+    position: absolute;
+    height: 7px;
+    left: 50%;
+    margin-left: -8px;
+    top: 27px;
+    width: 15px;
+    background: url("../image/allicon.png") no-repeat -219px -144px;
+    overflow: hidden;
+    text-indent: -99px;
+    display: none;
+}
+.select-scope .active a,.select-scope li:hover a{
+    background: #F9F9F9;
+    border: 1px solid #cdcdcd;
+}
+.select-scope .active em,.select-scope li:hover em{
+    display: block;
+}
