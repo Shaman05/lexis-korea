@@ -15,6 +15,7 @@ $(function(){
     simpleSearchInit(); //简单搜索页
     advSearchInit(); //高级搜索
     logicBtnInit(); //逻辑按钮
+    regulationInit(); //regulation page
 
     function navInit(){
         var $mainNav = $(".main-nav");
@@ -176,5 +177,12 @@ $(function(){
                 //todo..
             });
         }
+    }
+
+    function regulationInit(){
+        var $leftPanel = $(".left-panel");
+        $leftPanel.find("dt").click(function(){
+            $(this).parent("dl").toggleClass("expand");
+        });
     }
 });

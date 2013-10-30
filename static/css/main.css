@@ -1038,26 +1038,35 @@ a:hover{
 .left-panel{
     float: left;
     width: 220px;
-    margin-left: -220px;
+    margin-left: -221px;
+    overflow: hidden;
+    zoom: 1;
+    border-right: 1px solid #cccccc;
 }
 .result-wrap{
-    border-left: 1px solid #cccccc;
-    min-height: 400px;
+    float: left;
+    width: 100%;
 }
-.select-type-wrap{
-    background: #FFFFFF url("../image/allicon.png") no-repeat 45px -15px;
+.select-type-wrap,
+.select-sort-wrap{
+    background: #FFFFFF url("../image/allicon.png") no-repeat 20px -15px;
     border: 1px solid #C7D1C9;
     cursor: pointer;
     display: inline-block;
+    *display: inline;
+    *zoom: 1;
     height: 28px;
     line-height: 28px;
-    margin-left: 20px;
     position: relative;
-    width: 180px;
+    width: 154px;
     z-index: 444;
     vertical-align: middle;
 }
-.select-type-wrap .selected{
+.select-type-wrap{
+    margin-left: 20px;
+}
+.select-type-wrap .selected,
+.select-sort-wrap .selected{
     display: block;
     margin: 0 28px 0 6px;
     background: #FFFFFF;
@@ -1097,4 +1106,228 @@ a:hover{
 }
 .select-scope .active em,.select-scope li:hover em{
     display: block;
+}
+.left-panel dl{
+    margin: -1px 20px 14px 0;
+    border-top: 1px dotted #cccccc;
+}
+.left-panel dt{
+    font-size: 14px;
+    color: #333333;
+}
+.left-panel .col-dt{
+    cursor: pointer;
+    padding-right: 16px;
+    background: url("../image/allicon.png") no-repeat 99px -125px;
+}
+.left-panel .expand .col-dt{
+    background-position: 120px -125px;
+}
+.left-panel dd{
+    display: none;
+}
+.left-panel .expand dd{
+    display: block;
+}
+.col-dt span{
+    display: block;
+    padding: 5px 0;
+    background: #ffffff;
+}
+.seaInput{
+    border: 1px solid #CDCDCD;
+    margin-top: 10px;
+    padding-right: 30px;
+    background: url("../image/allicon.png") no-repeat 139px -125px;
+    cursor: pointer;
+}
+.seaInput input{
+    background: #FFFFFF;
+    border: none;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    outline: medium none;
+    padding: 0 3px;
+    width: 100%;
+}
+.purchased-link a,.non-purchased-link a{
+    text-decoration: none;
+}
+.purchased-link a{
+    color: #009DDB;
+}
+.effective-region{
+    max-height: 200px;
+    overflow: auto;
+    padding-left: 8px;
+}
+.effective-region a{
+    display: block;
+    padding: 3px 0;
+    color: #666666;
+}
+.tool-bar .select-file,
+.tool-bar .select-sort,
+.tool-bar .setting{
+    float: left;
+}
+.tool-bar .paging{
+    float: right;
+}
+.select-file label{
+    display: block;
+    margin: 6px 20px 0;
+    padding: 2px 30px 0 0;
+    background: url("../image/fopen.png") no-repeat 24px 0;
+    *padding-top: 0;
+    *background-position: 28px 2px;
+}
+.setting,.paging{
+    padding-top: 6px;
+}
+.setting a{
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    padding: 8px;
+    margin: 0 5px;
+    vertical-align: middle;
+    zoom: 1;
+}
+.icon-alert{
+    background: url("../image/alarm-clock.png") no-repeat 0 0;
+}
+.icon-email{
+    background: url("../image/mail--pencil.png") no-repeat 0 0;
+}
+.icon-print{
+    background: url("../image/printer.png") no-repeat 0 0;
+}
+.icon-save{
+    background: url("../image/disk-black.png") no-repeat 0 0;
+}
+.paging .count-num{
+    color: #ff0000;
+    padding: 0 1px;
+}
+.select-sort .select-sort-wrap{
+    float: left;
+    margin-right: 8px;
+    background-position: 48px -127px;
+}
+.paging-prev,.paging-next{
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    padding: 11px;
+    margin-left: 8px;
+    zoom: 1;
+    vertical-align: middle;
+}
+.paging-prev{
+    background: url("../image/pre-dis.jpg") no-repeat 0 0;
+}
+.paging-next{
+    background: url("../image/next.jpg") no-repeat 0 0;
+}
+.list-table{
+    padding: 6px 0 0 6px;
+}
+.list-table table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.list-table th{
+    background: #f3f3f3;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    text-indent: 4px;
+}
+.list-table td{
+    padding: 12px 4px;
+    border-bottom: 1px dotted #cccccc;
+}
+.list-table tr{
+    background: #ffffff;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.list-table tr:hover{
+    background: #f9f9f9;
+}
+.list-title{
+    text-indent: 36px;
+}
+.list-effe{
+    width: 12%;
+}
+.list-artId,
+.list-promDate,
+.list-prom{
+    width: 16%;
+}
+.list-promDate{
+    min-width: 124px;
+}
+.title-block{
+    padding-left: 40px;
+    position: relative;
+}
+.title-block label{
+    position: absolute;
+    left: 10px;
+    top: 4px;
+}
+.title-link{
+    margin-bottom: 10px;
+}
+.title-link a{
+    color: #009DDB;
+    font-size: 14px;
+    text-decoration: none;
+}
+.bottom-paging p{
+    padding: 10px 10px ;float: right;
+}
+.bottom-paging a{
+    float: left;
+    text-decoration: none;
+}
+.PagePrev {
+    background: url("../image/allicon.png") no-repeat 0 -195px;
+    display: block;
+    height: 14px;
+    margin: 11px 10px 0 0;
+    width: 50px;
+}
+.PageChoose {
+    background: url("../image/choose.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    margin: 5px;
+    text-align: center;
+    width: 26px;
+}
+.PageNext {
+    background: url("../image/allicon.png") no-repeat -60px -195px;
+    display: block;
+    height: 14px;
+    margin: 11px 0 0 10px;
+    width: 53px;
+}
+.PageCurr {
+    background: url("../image/curr.png") no-repeat 0 0;
+    color: #FFFFFF;
+    height: 31px;
+    line-height: 36px;
+    margin: 0;
+    width: 26px;
 }
