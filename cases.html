@@ -1,5 +1,234 @@
 <?php include('header.html') ?>
+<div class="cf keyword-scope">
+    <span class="label">Search keyword:</span>
+    <span class="value">All</span>
+    <div class="select-type-wrap">
+        <span class="selected">All Topic</span>
+    </div>
+</div>
 <div class="contain cases-page">
-    <h4>cases</h4>
+<div class="select-scope">
+    <ul class="cf">
+        <li class="active"><a href="#">All</a><em>icon</em></li>
+        <li><a href="#">Overview</a><em>icon</em></li>
+        <li><a href="#">Checklists</a><em>icon</em></li>
+        <li><a href="#">Practice Notes</a><em>icon</em></li>
+        <li><a href="#">Templates</a><em>icon</em></li>
+        <li><a href="#">Practical News</a><em>icon</em></li>
+        <li><a href="#">Regulations</a><em>icon</em></li>
+        <li><a href="#">Cases</a><em>icon</em></li>
+        <li><a href="#">Government forms</a><em>icon</em></li>
+        <li><a href="#">Smart chart</a><em>icon</em></li>
+    </ul>
+</div>
+<div class="cf search-content">
+<div class="left-panel">
+    <!--左边过滤条件-->
+    <dl>
+        <dt><span>Search within</span></dt>
+        <dd class="cf">
+            <div class="seaInput">
+                <label><input id="search-within" name="" type="text"/></label>
+            </div>
+        </dd>
+    </dl>
+    <dl class="expand">
+        <dt class="col-dt"><span>Subscription</span></dt>
+        <dd>
+            <p class="purchased-link"><a href="#">purchased</a></p>
+            <p class="non-purchased-link"><a href="#">Non purchased</a></p>
+        </dd>
+    </dl>
+    <dl class="expand">
+        <dt class="col-dt"><span>Date</span></dt>
+        <dd>
+            <img src="./static/image/DateLine.png" alt="date line"/>
+        </dd>
+    </dl>
+    <dl>
+        <dt class="col-dt"><span>Effective region</span></dt>
+        <dd>
+            <div class="effective-region">
+                <a href="#">NATIONAL [4224]</a>
+                <a href="#">BEIJING MUNICIPALITY [455]</a>
+                <a href="#">TIANJIN MUNICIPALITY [255]</a>
+                <a href="#">HEBEI PROVINCE [296]</a>
+                <a href="#">SHANXI PROVINCE [280]</a>
+                <a href="#">INNER MONGOLIA AUTONOMOUS REGION [102]</a>
+                <a href="#">LIAONING PROVINCE [372]</a>
+                <a href="#">JILIN PROVINCE [265]</a>
+                <a href="#">NATIONAL [4224]</a>
+                <a href="#">BEIJING MUNICIPALITY [455]</a>
+                <a href="#">TIANJIN MUNICIPALITY [255]</a>
+                <a href="#">HEBEI PROVINCE [296]</a>
+                <a href="#">SHANXI PROVINCE [280]</a>
+                <a href="#">INNER MONGOLIA AUTONOMOUS REGION [102]</a>
+                <a href="#">LIAONING PROVINCE [372]</a>
+                <a href="#">JILIN PROVINCE [265]</a>
+            </div>
+        </dd>
+    </dl>
+    <dl>
+        <dt class="col-dt"><span>Jurisdictional level</span></dt>
+        <dd>
+
+        </dd>
+    </dl>
+    <dl>
+        <dt class="col-dt"><span>Topic</span></dt>
+        <dd>
+
+        </dd>
+    </dl>
+    <dl>
+        <dt class="col-dt"><span>Industry</span></dt>
+        <dd>
+
+        </dd>
+    </dl>
+    <!--//左边过滤条件-->
+</div>
+<div class="result-wrap">
+    <!--右边列表-->
+    <div class="result-list-inner">
+        <div class="cf tool-bar">
+            <div class="select-file">
+                <label><input id="checkAll" type="checkbox" value="all"/></label>
+            </div>
+            <div class="cf select-sort">
+                <div class="select-sort-wrap sort-a">
+                    <span class="selected">Relevance</span>
+                </div>
+                <div class="select-sort-wrap sort-b">
+                    <span class="selected">Title and summary</span>
+                </div>
+            </div>
+            <div class="setting">
+                <a class="icon-alert" href="javascript:" title="alert">Alert</a>
+                <a class="icon-email" href="javascript:" title="email">Email</a>
+                <a class="icon-print" href="javascript:" title="print">Print</a>
+                <a class="icon-save" href="javascript:" title="save">Save</a>
+            </div>
+            <div class="paging">
+                <span>Total <span class="count-num">769392</span> Records</span>
+                <a class="paging-prev" href="javascript:" title="Prev">Prev</a>
+                <a class="paging-next" href="javascript:" title="Next">Next</a>
+            </div>
+        </div>
+        <div class="list-table">
+            <table id="list-table">
+                <thead>
+                <tr>
+                    <th class="list-title">Title</th>
+                    <th class="list-effe">Effectiveness</th>
+                    <th class="list-artId">Article ID</th>
+                    <th class="list-promDate">Promulation date</th>
+                    <th class="list-prom">Promulgator</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <div class="title-block">
+                            <label><input type="checkbox" value=""/></label>
+                            <div class="title-link">
+                                <a href="./detail-b.html">Company Law of the People's Republic of China (Revised in 2005)</a>
+                            </div>
+                            <div class="summary">
+                                <p>Company Law of the People's Republic of China (Revised in 2005). Company Law of the People's Republic of China (Revised in 2005) Order of the President [2005] No. 42 October 27, 2005 The Company Law of the People's Republic of China was amended and adopted at the 18th session of the Standing.</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td valign="top"><span>Effective</span></td>
+                    <td valign="top"><span>Order of the President [2005] No. 42</span></td>
+                    <td valign="top"><span>2005-10-27</span></td>
+                    <td valign="top"><span>Standing Committee of the National People's Congress</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="title-block">
+                            <label><input type="checkbox" value=""/></label>
+                            <div class="title-link">
+                                <a href="#">Company Law of the People's Republic of China (Revised in 2005)</a>
+                            </div>
+                            <div class="summary">
+                                <p>Company Law of the People's Republic of China (Revised in 2005). Company Law of the People's Republic of China (Revised in 2005) Order of the President [2005] No. 42 October 27, 2005 The Company Law of the People's Republic of China was amended and adopted at the 18th session of the Standing.</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td valign="top"><span>Effective</span></td>
+                    <td valign="top"><span>Order of the President [2005] No. 42</span></td>
+                    <td valign="top"><span>2005-10-27</span></td>
+                    <td valign="top"><span>Standing Committee of the National People's Congress</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="title-block">
+                            <label><input type="checkbox" value=""/></label>
+                            <div class="title-link">
+                                <a href="#">Company Law of the People's Republic of China (Revised in 2005)</a>
+                            </div>
+                            <div class="summary">
+                                <p>Company Law of the People's Republic of China (Revised in 2005). Company Law of the People's Republic of China (Revised in 2005) Order of the President [2005] No. 42 October 27, 2005 The Company Law of the People's Republic of China was amended and adopted at the 18th session of the Standing.</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td valign="top"><span>Effective</span></td>
+                    <td valign="top"><span>Order of the President [2005] No. 42</span></td>
+                    <td valign="top"><span>2005-10-27</span></td>
+                    <td valign="top"><span>Standing Committee of the National People's Congress</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="title-block">
+                            <label><input type="checkbox" value=""/></label>
+                            <div class="title-link">
+                                <a href="#">Company Law of the People's Republic of China (Revised in 2005)</a>
+                            </div>
+                            <div class="summary">
+                                <p>Company Law of the People's Republic of China (Revised in 2005). Company Law of the People's Republic of China (Revised in 2005) Order of the President [2005] No. 42 October 27, 2005 The Company Law of the People's Republic of China was amended and adopted at the 18th session of the Standing.</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td valign="top"><span>Effective</span></td>
+                    <td valign="top"><span>Order of the President [2005] No. 42</span></td>
+                    <td valign="top"><span>2005-10-27</span></td>
+                    <td valign="top"><span>Standing Committee of the National People's Congress</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="title-block">
+                            <label><input type="checkbox" value=""/></label>
+                            <div class="title-link">
+                                <a href="#">Company Law of the People's Republic of China (Revised in 2005)</a>
+                            </div>
+                            <div class="summary">
+                                <p>Company Law of the People's Republic of China (Revised in 2005). Company Law of the People's Republic of China (Revised in 2005) Order of the President [2005] No. 42 October 27, 2005 The Company Law of the People's Republic of China was amended and adopted at the 18th session of the Standing.</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td valign="top"><span>Effective</span></td>
+                    <td valign="top"><span>Order of the President [2005] No. 42</span></td>
+                    <td valign="top"><span>2005-10-27</span></td>
+                    <td valign="top"><span>Standing Committee of the National People's Congress</span></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="bottom-paging" id="searchResultPage">
+            <p>
+                <a class="PagePrev" href="#" title="Prev"></a>
+                <a class="PageChoose PageCurr" href="#">1</a>
+                <a class="PageChoose" href="#">2</a>
+                <a class="PageChoose" href="#">3</a>
+                <a class="PageChoose" href="#">4</a>
+                <a class="PageChoose" href="#">5</a>
+                <a class="PageNext" href="#" title="Next"></a>
+            </p>
+        </div>
+    </div>
+    <!--//右边列表-->
+</div>
+</div>
 </div>
 <?php include('footer.html') ?>

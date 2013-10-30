@@ -11,7 +11,6 @@ $(function(){
     navInit();  //垂直滚动菜单定位、当前栏目高亮
     tabInit();  //首页内容轮播
     topicInit(); //首页topic效果
-    splitter();  //详细内容页分割
     simpleSearchInit(); //简单搜索页
     advSearchInit(); //高级搜索
     logicBtnInit(); //逻辑按钮
@@ -98,34 +97,6 @@ $(function(){
         $items.find(".cate-more").click(function(){
             $(this).parent().toggleClass("more-show");
         });
-    }
-
-    function splitter(){
-        var $leftBtn = $(".splitter-left").find(".splitter-btn");
-        $leftBtn.data("data-expand", true);
-        $leftBtn.click(function(){
-            var isExpand = $(this).data("data-expand");
-            if(isExpand){
-                colSpan();
-                $(this).data("data-expand", false);
-            }else{
-                expand();
-                $(this).data("data-expand", true);
-            }
-        });
-
-        function colSpan(){
-            $(".left")
-                .css("width", "10px")
-                .find(".toc-bar h4,.toc").css("visibility", "hidden");
-            $(".right-content").css("margin-left", "-208px");
-        }
-        function expand(){
-            $(".left")
-                .css("width", "240px")
-                .find(".toc-bar h4,.toc").css("visibility", "visible");
-            $(".right-content").css("margin-left", "18px");
-        }
     }
 
     function simpleSearchInit(){

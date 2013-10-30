@@ -626,110 +626,6 @@ a:hover{
     display: block;
 }
 
-/*docview page*/
-.docview-page .right-content{
-    margin-left: 18px;
-}
-.doc-bar,.toc-bar{
-    height: 38px;
-    border: 1px solid #dfdfdf;
-    border-radius: 3px 3px 0 0;
-}
-.doc-content,.toc-box{
-    min-height: 480px;
-    border: 1px solid #dddddd;
-    border-top: none;
-}
-.toc-box,.doc-bar,.toc-bar{
-    background: #fafafa;
-}
-.doc-content{
-    background: #ffffff;
-}
-.docview-page{
-    padding-top: 0;
-}
-.toc-bar h4{
-    padding-left: 1em;
-    line-height: 38px;
-    font-size: 14px;
-    color: #999999;
-}
-.font-tool{
-    float: left;
-    margin: 9px 0 0 10px;
-}
-.search-tool{
-    float: right;
-    margin: 9px 10px 0 0;
-    box-shadow: 1px 1px 0 #cccccc;
-}
-.font-tool a{
-    float: left;
-    height: 18px;
-    line-height: 16px;
-    background: #ffffff;
-    border: 1px solid #dddddd;
-    margin-right: -1px;
-    padding: 0 3px;
-    text-decoration: none;
-}
-.font-tool .font-size{
-    width: 18px;
-    text-align: center;
-    font-weight: bold;
-    color: #636363;
-    padding: 0;
-}
-.font-tool .no-bg{
-    border: none;
-    background: none;
-    line-height: 18px;
-    margin-right: 4px;
-}
-.search-tool input{
-    border: 1px solid #408CC8;
-    height: 16px;
-    line-height: 20px;
-    vertical-align: middle;
-    width: 180px;
-    font-size: 12px;
-}
-.search-tool button{
-    background: #408CC8 url("../image/btn_find_01.gif") no-repeat -2px 0;
-    height: 18px;
-    width: 18px;
-    text-indent: -999px;
-    overflow: hidden;
-    border: none;
-    vertical-align: middle;
-    cursor: pointer;
-}
-.article-boy{
-    font-size: 13px;
-    color: #2A2927;
-    padding: 1.5em 2em;
-}
-.metadata{
-    border-collapse: collapse;
-    margin: 12px 0;
-    width: 100%;
-}
-.metadata caption{
-    display: none;
-}
-.metadata th,.metadata td{
-    border: 1px solid #D8D8D8;
-    padding: 4px 10px;
-}
-.metadata th{
-    text-align: right;
-    background: #F3F3F3;
-    color: #4F4F4F;
-}
-.metadata td{
-}
-
 /*simple-search*/
 .simple-search-page{
     overflow: visible;
@@ -1015,7 +911,7 @@ a:hover{
 }
 
 /*regulation page*/
-.regulation-page{
+.regulation-page,.cases-page{
     margin-top: 0;
 }
 .keyword-scope{
@@ -1197,16 +1093,16 @@ a:hover{
     vertical-align: middle;
     zoom: 1;
 }
-.icon-alert{
+.setting .icon-alert{
     background: url("../image/alarm-clock.png") no-repeat 0 0;
 }
-.icon-email{
+.setting .icon-email{
     background: url("../image/mail--pencil.png") no-repeat 0 0;
 }
-.icon-print{
+.setting .icon-print{
     background: url("../image/printer.png") no-repeat 0 0;
 }
-.icon-save{
+.setting .icon-save{
     background: url("../image/disk-black.png") no-repeat 0 0;
 }
 .paging .count-num{
@@ -1330,4 +1226,84 @@ a:hover{
     line-height: 36px;
     margin: 0;
     width: 26px;
+}
+
+/*detail*/
+.docview-page{
+    padding-right: 340px;
+}
+.main-inner,.related{
+    border: 1px solid #CDCDCD;
+    position: relative;
+    min-height: 200px;
+}
+.main-content-wrap{
+    float: left;
+    width: 100%;
+}
+.related{
+    float: right;
+    width: 334px;
+    margin-right: -340px;
+}
+.docview-page .tool-bar{
+    height: 50px;
+    background: #FBFBFB;
+}
+.tool-bar-btn{
+    float: left;
+}
+.tool-bar-btn button{
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    padding: 0 12px;
+    margin: 4px 0 0 5px;
+}
+.blue-btn{
+    background: #489DE1;
+}
+.red-btn{
+    background: #CC0033;
+}
+.tools{
+    float: right;
+    padding: 12px 16px 0 0;
+}
+.tools a{
+    background-image: url("../image/icon-toolbar-24.png");
+    background-repeat: no-repeat;
+    float: left;
+    height: 24px;
+    margin-left: 6px;
+    width: 25px;
+    font-size: 0;
+}
+.tools .icon-print{
+    background-position: 0 0;
+}
+.tools .icon-save{
+    background-position: 0 -28px;
+}
+.tools .icon-email{
+    background-position: 0 -59px;
+}
+.tools .icon-txt{
+    background-position: 0 -91px;
+}
+.tools .icon-rtf{
+    background-position: 0 -121px;
+}
+.tools .icon-word{
+    background-position: 0 -150px;
+}
+.tools .icon-pdf{
+    background-position: 0 -180px;
+}
+.tools .icon-txt-size{
+    background-position: 0 -210px;
 }
