@@ -93,13 +93,13 @@
             <div class="result-list-inner">
                 <div class="cf tool-bar">
                     <div class="select-file">
-                        <label><input type="checkbox" value="all"/></label>
+                        <label><input id="checkAll" type="checkbox" value="all"/></label>
                     </div>
                     <div class="cf select-sort">
-                        <div class="select-sort-wrap">
+                        <div class="select-sort-wrap sort-a">
                             <span class="selected">Relevance</span>
                         </div>
-                        <div class="select-sort-wrap">
+                        <div class="select-sort-wrap sort-b">
                             <span class="selected">Title and summary</span>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                     </div>
                 </div>
                 <div class="list-table">
-                    <table>
+                    <table id="list-table">
                         <thead>
                             <tr>
                                 <th class="list-title">Title</th>

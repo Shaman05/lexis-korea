@@ -1308,7 +1308,7 @@ a:hover{
     width: 50px;
 }
 .PageChoose {
-    background: url("../image/choose.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+    background: url("../image/choose.png") no-repeat 0 0;
     display: block;
     height: 26px;
     line-height: 26px;

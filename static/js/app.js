@@ -181,8 +181,24 @@ $(function(){
 
     function regulationInit(){
         var $leftPanel = $(".left-panel");
+        var $checkAll = $("#checkAll");
+        var $listTable = $("#list-table");
+        var $listCheckBox = $listTable.find("input[type=checkbox]");
+        var $listSummary = $listTable.find(".summary");
+        //左边面板折叠
         $leftPanel.find("dt").click(function(){
             $(this).parent("dl").toggleClass("expand");
         });
+        //列表全选的切换
+        $checkAll.click(function(){
+            var isCheckAll = this.checked;
+            $listCheckBox.attr("checked", isCheckAll);
+        });
+        //摘要切换显示
+        $(".sort-b").click(toggleSummary);
+
+        function toggleSummary(){
+            $listSummary.toggle();
+        }
     }
 });
