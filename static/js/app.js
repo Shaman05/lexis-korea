@@ -18,6 +18,8 @@ $(function(){
 
     function navInit(){
         var $mainNav = $(".main-nav");
+        var $mainNavHeight = $mainNav.height();
+        var $related = $(".related");
         if($mainNav.size() === 0)return;
         var navOffsetTop = $mainNav.offset().top;
         var navMap = {
@@ -28,10 +30,13 @@ $(function(){
         };
         var url = window.top.location.href;
         $(window).scroll(function(){
-            if($("html").scrollTop() > navOffsetTop || $("body").scrollTop() > navOffsetTop){
+            var scrollTop = $("html").scrollTop() || $("body").scrollTop();
+            if(scrollTop > navOffsetTop){
                 $mainNav.css("position", "fixed");
+                $related && $related.css("margin-top", scrollTop - navOffsetTop + $mainNavHeight);
             }else{
                 $mainNav.css("position", "relative");
+                $related && $related.css("margin-top", 0);
             }
         });
         var active = 0;

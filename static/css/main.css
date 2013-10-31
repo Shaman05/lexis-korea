@@ -916,6 +916,7 @@ a:hover{
 .radio-set input{
     margin-right: 4px;
     vertical-align: top;
+    *vertical-align: -3px;
 }
 .radio-set label{
     margin-right: 12px;
@@ -1186,11 +1187,13 @@ a:hover{
 .title-block{
     padding-left: 40px;
     position: relative;
+    zoom: 1;
 }
 .title-block label{
     position: absolute;
     left: 10px;
     top: 3px;
+    *top: -2px;
 }
 .title-link{
     margin-bottom: 10px;
@@ -1257,6 +1260,8 @@ a:hover{
     width: 334px;
     margin-right: -340px;
     color: #489DE1;
+    *position: relative;
+    *right: -4px;
 }
 .docview-page .tool-bar{
     height: 50px;
