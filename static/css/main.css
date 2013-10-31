@@ -1466,3 +1466,97 @@ a:hover{
 #fancybox-wrap{
     margin-top: -200px;
 }
+
+/*history page*/
+.uc-tab{
+    margin: 10px 0 16px;
+}
+.uc-tab a{
+    height: 24px;
+    line-height: 24px;
+    padding: 0 8px;
+    color: #ffffff;
+    float: left;
+    margin-right: 10px;
+}
+.uc-tab a:hover{
+    text-decoration: none;
+}
+.green-btn{
+    background: #47a447;
+}
+.action-bar, .history-info{
+    border-width: 1px 1px 0;
+    border-color: #cccccc;
+    border-style: solid;
+    height: 24px;
+    line-height: 24px;
+    padding: 5px;
+}
+.action-bar{
+    background: #fcfcfc;
+}
+.history-info a{
+    color: #CC0033;
+    text-decoration: none;
+}
+.history-table table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.history-table thead{
+    background: #f3f3f3;
+}
+.history-table th, .history-table td{
+    border: 1px solid #cccccc;
+    text-align: left;
+    padding: 2px 6px;
+    font-weight: normal;
+}
+.history-table .checkbox{
+    vertical-align: -4px;
+}
+.th-checkbox{
+    width: 14px;
+}
+.th-pros{
+    width: 40px;
+}
+.th-pros,.th-cont{
+    width: 110px;
+}
+.th-date{
+    width: 116px;
+}
+.th-rc{
+    width: 80px;
+}
+.th-exec,.th-edit{
+    width: 24px;
+}
+.action-btn{
+    display: inline-block;
+    height: 16px;
+    padding: 0 6px;
+    line-height: 16px;
+    *display: inline;
+    zoom: 1;
+    border-radius: 3px;
+    border: 1px solid #cdcdcd;
+    background: #f9f9f9;
+}
+.action-btn:hover{
+    text-decoration: none;
+}
+.action-delete span{
+    color: #ff0000;
+}
+.action-delete:hover{
+    background: #efefef;
+}
+.action-exec{
+    color: #ff0000;
+}
+.action-edit{
+    color: green;
+}

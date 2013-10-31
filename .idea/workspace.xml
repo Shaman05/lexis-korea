@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/history.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myFavorite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/app.js" afterPath="$PROJECT_DIR$/static/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.html" afterPath="$PROJECT_DIR$/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.html" afterPath="$PROJECT_DIR$/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history.html" afterPath="$PROJECT_DIR$/history.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myFavorite.html" afterPath="$PROJECT_DIR$/myFavorite.html" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/test.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381570303027" ignored="false" />
     <file path="/test.php" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381570014246" ignored="false" />
     <file path="/header.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383204348587" ignored="false" />
-    <file path="/dummy.xml" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383204416347" ignored="false" />
+    <file path="/dummy.xml" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383210480577" ignored="false" />
     <file path="/footer.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383207776034" ignored="false" />
     <file path="/index.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382320191212" ignored="false" />
-    <file path="/main.css" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383208720078" ignored="false" />
+    <file path="/main.css" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383213468322" ignored="false" />
     <file path="/Dummy.txt" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383204571396" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/caseSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381717192344" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/out/assets/js/api-list.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381799940600" ignored="false" />
@@ -70,8 +66,8 @@
     <file path="$PROJECT_DIR$/../jolnet/jol/static/src/simplePage-noNav.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383128358227" ignored="false" />
     <file path="$PROJECT_DIR$/../jolnet/jol/ap/ForgotPassword.aspx" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383128519793" ignored="false" />
     <file path="/regulations.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383190993437" ignored="false" />
-    <file path="/history.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383207133446" ignored="false" />
-    <file path="/myFavorite.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383207128237" ignored="false" />
+    <file path="/history.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383213029078" ignored="false" />
+    <file path="/myFavorite.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383213415787" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,25 +91,7 @@
           <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="582" column="28" selection-start="10562" selection-end="10562" vertical-scroll-proportion="0.48939642">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="history.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/history.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="20" selection-start="53" selection-end="53" vertical-scroll-proportion="-0.6956522">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="myFavorite.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/myFavorite.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="20" selection-start="53" selection-end="53" vertical-scroll-proportion="-0.6956522">
+                <state line="1485" column="23" selection-start="27813" selection-end="27813" vertical-scroll-proportion="0.6606852">
                   <folding />
                 </state>
               </provider>
@@ -123,47 +101,38 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="18" selection-start="646" selection-end="646" vertical-scroll-proportion="0.7047308">
+                <state line="10" column="42" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
+          <file leaf-file-name="history.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/history.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="99" column="35" selection-start="5464" selection-end="5468" vertical-scroll-proportion="-7.652174">
-                  <folding>
-                    <element signature="tag#div#0;tag#div#0" expanded="false" />
-                    <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                    <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                    <element signature="tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                    <element signature="tag#dd#1;tag#dl#0;tag#div#0;tag#div#2;tag#div#0" expanded="false" />
-                    <element signature="tag#dd#2;tag#dl#0;tag#div#0;tag#div#2;tag#div#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/header.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="50" selection-start="950" selection-end="950" vertical-scroll-proportion="-11.869565">
+                <state line="191" column="14" selection-start="10975" selection-end="10975" vertical-scroll-proportion="-132.86957">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="footer.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/footer.html">
+          <file leaf-file-name="myFavorite.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/myFavorite.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="69" selection-start="1108" selection-end="1182" vertical-scroll-proportion="-16.0">
-                  <folding>
-                    <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                  </folding>
+                <state line="5" column="23" selection-start="243" selection-end="243" vertical-scroll-proportion="0.13559322">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="regulation.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/regulation.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="226" column="22" selection-start="12225" selection-end="12802" vertical-scroll-proportion="-4.3913045">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -199,10 +168,10 @@
         <option value="$PROJECT_DIR$/regulation.html" />
         <option value="$PROJECT_DIR$/cases.html" />
         <option value="$PROJECT_DIR$/header.html" />
-        <option value="$PROJECT_DIR$/myFavorite.html" />
-        <option value="$PROJECT_DIR$/history.html" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/static/js/app.js" />
+        <option value="$PROJECT_DIR$/history.html" />
+        <option value="$PROJECT_DIR$/myFavorite.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
       </list>
     </option>
@@ -516,30 +485,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regulation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="231" column="6" selection-start="12880" selection-end="12880" vertical-scroll-proportion="0.8101695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="50" selection-start="950" selection-end="950" vertical-scroll-proportion="-11.869565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myFavorite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="53" selection-end="53" vertical-scroll-proportion="-0.6956522">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="53" selection-end="53" vertical-scroll-proportion="-0.6956522">
           <folding />
         </state>
       </provider>
@@ -569,14 +517,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="18" selection-start="646" selection-end="646" vertical-scroll-proportion="0.7047308">
+        <state line="10" column="42" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regulation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="226" column="22" selection-start="12225" selection-end="12802" vertical-scroll-proportion="-4.3913045">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="191" column="14" selection-start="10975" selection-end="10975" vertical-scroll-proportion="-132.86957">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myFavorite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="23" selection-start="243" selection-end="243" vertical-scroll-proportion="0.13559322">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="582" column="28" selection-start="10562" selection-end="10562" vertical-scroll-proportion="0.48939642">
+        <state line="1485" column="23" selection-start="27813" selection-end="27813" vertical-scroll-proportion="0.6606852">
           <folding />
         </state>
       </provider>
