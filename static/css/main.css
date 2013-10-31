@@ -191,6 +191,7 @@ a:hover{
     margin-top: 16px;
     margin-bottom: 16px;
     border-radius: 5px;
+    *height: 64px;
 }
 .top-search .search-input{
     height: 34px;
@@ -211,6 +212,8 @@ a:hover{
 .select-option input{
     vertical-align: bottom;
     margin: 0 2px 0 14px;
+    *vertical-align: -2px;
+    *margin-left: 4px;
 }
 .top-search .search-text{
     color: #ffffff;
@@ -571,17 +574,18 @@ a:hover{
     float: left;
     width: 31%;
     margin-right: 2%;
+    cursor: move;
 }
 .topic .item{
     margin-bottom: 12px;
     padding: 10px;
-    border: 1px solid #ffffff;
+    border: 1px dotted #ffffff;
+    -moz-transition: all 0.1s;
+    -webkit-transition: all 0.1s;
 }
 .topic .item:hover{
     border-color: #cccccc;
     background: #fcfcfc;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
 }
 .topic .item li,.topic .item h4{
     margin-bottom: 1em;

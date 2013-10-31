@@ -22,6 +22,13 @@ $(function(){
         bar: "bar"
     });
 
+    $(".topic dd").sortable({
+        connectWith: '.topic dd',
+        stop: function(){
+            //记录排序
+        }
+    });
+
     function navInit(){
         var $mainNav = $(".main-nav");
         var $mainNavHeight = $mainNav.height();
@@ -33,7 +40,7 @@ $(function(){
             "regulation": 1,
             "cases": 2,
             "history": 3,
-            "favorite": 3
+            "Favorite": 3
         };
         var url = window.top.location.href;
         $(window).scroll(function(){
