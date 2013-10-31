@@ -21,6 +21,7 @@ li{
 }
 a{
     color: #4F4F4F;
+    outline: none;
 }
 a,
 .main-nav li a:hover,
@@ -909,6 +910,16 @@ a:hover{
     color: #999999;
     text-indent: -1px;
 }
+.radio-set{
+    padding-top: 4px;
+}
+.radio-set input{
+    margin-right: 4px;
+    vertical-align: top;
+}
+.radio-set label{
+    margin-right: 12px;
+}
 
 /*regulation page*/
 .regulation-page,.cases-page{
@@ -1167,7 +1178,7 @@ a:hover{
 .list-artId,
 .list-promDate,
 .list-prom{
-    width: 16%;
+    width: 14%;
 }
 .list-promDate{
     min-width: 124px;
@@ -1179,7 +1190,7 @@ a:hover{
 .title-block label{
     position: absolute;
     left: 10px;
-    top: 4px;
+    top: 3px;
 }
 .title-link{
     margin-bottom: 10px;
@@ -1245,6 +1256,7 @@ a:hover{
     float: right;
     width: 334px;
     margin-right: -340px;
+    color: #489DE1;
 }
 .docview-page .tool-bar{
     height: 50px;
@@ -1253,7 +1265,8 @@ a:hover{
 .tool-bar-btn{
     float: left;
 }
-.tool-bar-btn button{
+.tool-bar-btn button,
+.form-submit-wrap .submit-btn,.form-submit-wrap .reset-btn{
     color: #FFFFFF;
     cursor: pointer;
     font-size: 14px;
@@ -1269,6 +1282,17 @@ a:hover{
 }
 .red-btn{
     background: #CC0033;
+}
+.gray-btn{
+    background: #e3e3e3;
+}
+.form-submit-wrap .submit-btn,.form-submit-wrap .reset-btn{
+    height: 32px;
+    line-height: 32px;
+    margin: 0 12px 0 0;
+}
+.form-submit-wrap .gray-btn{
+    color: #333333;
 }
 .tools{
     float: right;
@@ -1306,4 +1330,89 @@ a:hover{
 }
 .tools .icon-txt-size{
     background-position: 0 -210px;
+}
+.main-document{
+    padding: 0 32px 20px;
+}
+.main-document .title h2{
+    color: #333333;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: 24px 0;
+}
+.main-document .version{
+    text-align: right;
+    padding-bottom: 4px;
+}
+.main-document .version a{
+    color: #CC0033;
+    text-decoration: none;
+}
+.main-document .go-top{
+    float: right;
+    color: #009DDB;
+    font-size: 12px;
+    text-decoration: none;
+}
+.main-document .reference strong{
+    color: #333333;
+    font-size: 14px;
+}
+.document-body{
+    min-height: 200px;
+    margin: 1em 0;
+}
+.metadata table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+.metadata th,.metadata td{
+    border: 1px solid #cdcdcd;
+    padding: 4px 6px;
+    line-height: 24px;
+}
+.metadata th{
+    width: 24%;
+    min-width: 120px;
+    background: #EEEEEE;
+}
+.related .inner{
+    padding: 16px 30px 0;
+}
+.related-foot{
+    background: #FBFBFB;
+    margin: 0 -30px;
+}
+.related-foot span{
+    display: block;
+    margin-left: 30px;
+    padding-left: 34px;
+    background: url("../image/allicon.png") no-repeat 0 -116px;
+}
+.related-foot a{
+    display: block;
+    height: 46px;
+    line-height: 50px;
+    background: #FBFBFB;
+    color: #009DDB;
+    text-decoration: none;
+    font-size: 16px;
+}
+.related h4{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+.related-list dl{
+    padding-bottom: 16px;
+}
+.related-list dt{
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.related-list dd{
+    padding-left: 16px;
+    background: url("../image/allicon.png") no-repeat -250px 3px;
 }

@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/detail-b.html" />
-      <change type="MOVED" beforePath="C:\devin\code\demo\docview.html" afterPath="$PROJECT_DIR$/detail-a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/app.js" afterPath="$PROJECT_DIR$/static/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax-tpl/cases.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/detail-cases.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/detail-regulation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax-tpl/regulations.html" />
+      <change type="DELETED" beforePath="C:\devin\code\demo\detail-a.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\devin\code\demo\detail-b.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advance-search.html" afterPath="$PROJECT_DIR$/advance-search.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cases.html" afterPath="$PROJECT_DIR$/cases.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax-tpl/overview.html" afterPath="$PROJECT_DIR$/ajax-tpl/overview.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regulation.html" afterPath="$PROJECT_DIR$/regulation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -15,10 +20,10 @@
     <file path="/test.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381570303027" ignored="false" />
     <file path="/test.php" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381570014246" ignored="false" />
     <file path="/header.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383031431466" ignored="false" />
-    <file path="/dummy.xml" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383123168343" ignored="false" />
+    <file path="/dummy.xml" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383190993769" ignored="false" />
     <file path="/footer.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382065809673" ignored="false" />
     <file path="/index.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382320191212" ignored="false" />
-    <file path="/main.css" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383124730536" ignored="false" />
+    <file path="/main.css" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383191089772" ignored="false" />
     <file path="/Dummy.txt" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382924192826" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/caseSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381717192344" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/out/assets/js/api-list.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381799940600" ignored="false" />
@@ -28,8 +33,8 @@
     <file path="$USER_HOME$/Desktop/work/jol/API/magazineSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381718591292" ignored="false" />
     <file path="$USER_HOME$/Desktop/work/jol/API/util.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381806459807" ignored="false" />
     <file path="/simple-search.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383036954609" ignored="false" />
-    <file path="/regulation.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383120415634" ignored="false" />
-    <file path="/cases.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383120428117" ignored="false" />
+    <file path="/regulation.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383188763790" ignored="false" />
+    <file path="/cases.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383191173365" ignored="false" />
     <file path="C:/wamp/www/myDev/jq-load.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381976629896" ignored="false" />
     <file path="C:/wamp/www/myDev/a.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381976625810" ignored="false" />
     <file path="C:/wamp/www/myDev/dd.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1381977928499" ignored="false" />
@@ -57,11 +62,11 @@
     <file path="/searchCommon.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383122693638" ignored="false" />
     <file path="/caseSearch.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383024391575" ignored="false" />
     <file path="$PROJECT_DIR$/../jolnet/jol/js/template/searchResultList.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1382954448402" ignored="false" />
-    <file path="/advance-search.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383035028207" ignored="false" />
-    <file path="/overview.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383037508705" ignored="false" />
+    <file path="/advance-search.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383191253075" ignored="false" />
+    <file path="/overview.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383190492126" ignored="false" />
     <file path="$PROJECT_DIR$/../jolnet/jol/static/src/search.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383097308118" ignored="false" />
     <file path="/search.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383097179062" ignored="false" />
-    <file path="/detail-a.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383124750227" ignored="false" />
+    <file path="/detail-a.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383187801212" ignored="false" />
     <file path="$PROJECT_DIR$/../jolnet/jol/ap/ChangePassword.aspx" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383125879484" ignored="false" />
     <file path="$PROJECT_DIR$/../jolnet/jol/static/src/simplePage.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383127500419" ignored="false" />
     <file path="/simplePage.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383127477740" ignored="false" />
@@ -69,6 +74,7 @@
     <file path="$PROJECT_DIR$/../jolnet/jol/ap/ResetPassword.aspx" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383128402733" ignored="false" />
     <file path="$PROJECT_DIR$/../jolnet/jol/static/src/simplePage-noNav.js" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383128358227" ignored="false" />
     <file path="$PROJECT_DIR$/../jolnet/jol/ap/ForgotPassword.aspx" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383128519793" ignored="false" />
+    <file path="/regulations.html" changelist="8a5aff38-74e7-4538-b77a-0c1ea2ceb18a" time="1383190993437" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +92,13 @@
     <favorites_list name="demo" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.36515152">
+    <splitter split-orientation="horizontal" split-proportion="0.36136365">
       <split-first>
         <leaf>
           <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1283" column="17" selection-start="24011" selection-end="24011" vertical-scroll-proportion="0.26916802">
+                <state line="1291" column="22" selection-start="24169" selection-end="24169" vertical-scroll-proportion="0.76870745">
                   <folding />
                 </state>
               </provider>
@@ -105,27 +111,52 @@
           <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="24" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <marker date="1383120227847" expanded="true" signature="221:5583" placeholder="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="detail-a.html" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/detail-a.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="13" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.5966102">
+                <state line="25" column="23" selection-start="678" selection-end="688" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="detail-b.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/detail-b.html">
+          <file leaf-file-name="overview.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ajax-tpl/overview.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0">
+                <state line="56" column="17" selection-start="2576" selection-end="2930" vertical-scroll-proportion="-19.391304">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="detail-cases.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/detail-cases.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="7" column="105" selection-start="264" selection-end="349" vertical-scroll-proportion="-4.869565">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="regulations.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ajax-tpl/regulations.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="45" column="17" selection-start="1854" selection-end="2328" vertical-scroll-proportion="-14.608696">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cases.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ajax-tpl/cases.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="92" selection-start="389" selection-end="389" vertical-scroll-proportion="-5.5652175">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="advance-search.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/advance-search.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="54" selection-start="932" selection-end="932" vertical-scroll-proportion="0.35254237">
                   <folding />
                 </state>
               </provider>
@@ -151,22 +182,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/detail.html" />
-        <option value="$PROJECT_DIR$/simple-header.html" />
         <option value="$PROJECT_DIR$/docview.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/static/ajax-tpl/overview.html" />
-        <option value="$PROJECT_DIR$/advance-search.html" />
         <option value="$PROJECT_DIR$/simple-search.html" />
-        <option value="$PROJECT_DIR$/ajax-tpl/overview.html" />
         <option value="$PROJECT_DIR$/header.html" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/static/js/app.js" />
+        <option value="$PROJECT_DIR$/detail-a.html" />
+        <option value="$PROJECT_DIR$/detail-b.html" />
         <option value="$PROJECT_DIR$/regulation.html" />
         <option value="$PROJECT_DIR$/cases.html" />
-        <option value="$PROJECT_DIR$/detail-b.html" />
+        <option value="$PROJECT_DIR$/ajax-tpl/overview.html" />
+        <option value="$PROJECT_DIR$/ajax-tpl/regulations.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
-        <option value="$PROJECT_DIR$/detail-a.html" />
+        <option value="$PROJECT_DIR$/ajax-tpl/cases.html" />
+        <option value="$PROJECT_DIR$/advance-search.html" />
       </list>
     </option>
   </component>
@@ -234,6 +265,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax-tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -250,6 +295,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\devin\code\demo\ajax-tpl" />
       <recent name="C:\devin\code\demo" />
       <recent name="C:\devin\code\demo\static\css" />
       <recent name="C:\devin\code\demo\static\js" />
@@ -388,16 +434,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/jquery-1.4.4.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery.ztree.core-3.5.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
@@ -423,49 +459,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax-tpl/overview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="54" selection-start="2302" selection-end="2302" vertical-scroll-proportion="0.840678">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advance-search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="82" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.40677965">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="54" selection-start="873" selection-end="873" vertical-scroll-proportion="0.51525426">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cases.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="329" selection-start="5294" selection-end="5627" vertical-scroll-proportion="0.32542372">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regulation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="68" selection-start="6120" selection-end="6120" vertical-scroll-proportion="0.2440678">
-          <folding>
-            <element signature="tag#thead#0;tag#table#0;tag#div#1;tag#div#0;tag#div#1;tag#div#1;tag#div#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1383120227847" expanded="true" signature="221:5583" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -485,23 +482,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/detail-regulation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="28" selection-start="3271" selection-end="3271" vertical-scroll-proportion="-41.04348">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regulation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="32" selection-start="5758" selection-end="12158" vertical-scroll-proportion="-10.913043">
+          <folding>
+            <element signature="tag#thead#0;tag#table#0;tag#div#1;tag#div#0;tag#div#1;tag#div#1;tag#div#1" expanded="false" />
+            <element signature="tag#tr#0;tag#tbody#0;tag#table#0;tag#div#1;tag#div#0;tag#div#1;tag#div#1;tag#div#1" expanded="false" />
+            <element signature="tag#tr#1;tag#tbody#0;tag#table#0;tag#div#1;tag#div#0;tag#div#1;tag#div#1;tag#div#1" expanded="false" />
+            <element signature="tag#tr#2;tag#tbody#0;tag#table#0;tag#div#1;tag#div#0;tag#div#1;tag#div#1;tag#div#1" expanded="false" />
+            <element signature="tag#tr#3;tag#tbody#0;tag#table#0;tag#div#1;tag#div#0;tag#div#1;tag#div#1;tag#div#1" expanded="false" />
+            <element signature="tag#tr#4;tag#tbody#0;tag#table#0;tag#div#1;tag#div#0;tag#div#1;tag#div#1;tag#div#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cases.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="59" selection-start="5162" selection-end="5162" vertical-scroll-proportion="0.46779662">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="23" selection-start="678" selection-end="688" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detail-cases.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="105" selection-start="264" selection-end="349" vertical-scroll-proportion="-4.869565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax-tpl/overview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="17" selection-start="2576" selection-end="2930" vertical-scroll-proportion="-19.391304">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1283" column="17" selection-start="24011" selection-end="24011" vertical-scroll-proportion="0.26916802">
+        <state line="1291" column="22" selection-start="24169" selection-end="24169" vertical-scroll-proportion="0.76870745">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detail-b.html">
+    <entry file="file://$PROJECT_DIR$/ajax-tpl/regulations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+        <state line="45" column="17" selection-start="1854" selection-end="2328" vertical-scroll-proportion="-14.608696">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detail-a.html">
+    <entry file="file://$PROJECT_DIR$/ajax-tpl/cases.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.5966102">
+        <state line="8" column="92" selection-start="389" selection-end="389" vertical-scroll-proportion="-5.5652175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advance-search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="54" selection-start="932" selection-end="932" vertical-scroll-proportion="0.35254237">
           <folding />
         </state>
       </provider>

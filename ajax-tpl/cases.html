@@ -1,8 +1,17 @@
-<div class="overview-form">
+<div class="cases-form">
     <form action="#">
         <table>
             <tr>
-                <th valign="top"><label for="ComparisonItem">Comparison item</label></th>
+                <th valign="top">Case Type</th>
+                <td>
+                    <div class="radio-set">
+                        <label><input type="radio" name="scope" value="0" checked/>Case summary</label>
+                        <label><input type="radio" name="scope" value="1"/>Written judgement</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th valign="top"><label for="ComparisonItem">Title</label></th>
                 <td>
                     <input class="input-text" type="text" id="ComparisonItem" name=""/>
                     <div class="cf logic-btn" data-clickFor="ComparisonItem">
@@ -14,22 +23,10 @@
                 </td>
             </tr>
             <tr>
-                <th valign="top"><label for="context">Full context</label></th>
+                <th valign="top"><label for="context">Keyword(s)in content</label></th>
                 <td>
                     <input class="input-text" type="text" id="context" name=""/>
                     <div class="cf logic-btn" data-clickFor="context">
-                        <a class="logic-btn-and" href="javascript:" title="AND">AND</a>
-                        <a class="logic-btn-or" href="javascript:" title="OR">OR</a>
-                        <a class="logic-btn-not" href="javascript:" title="NOT">NOT</a>
-                        <a class="logic-btn-help" href="javascript:" title="HELP">HELP</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th valign="top"><label for="ComparisonRegion">Comparision region</label></th>
-                <td>
-                    <input class="input-text" type="text" id="ComparisonRegion" name=""/>
-                    <div class="cf logic-btn" data-clickFor="ComparisonRegion">
                         <a class="logic-btn-and" href="javascript:" title="AND">AND</a>
                         <a class="logic-btn-or" href="javascript:" title="OR">OR</a>
                         <a class="logic-btn-not" href="javascript:" title="NOT">NOT</a>
