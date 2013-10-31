@@ -16,6 +16,12 @@ $(function(){
     logicBtnInit(); //逻辑按钮
     regulationInit(); //regulation page
 
+    //初始化页面中的模拟下拉
+    $(".m-dropDown").dropDown({
+        foo: "fuck",
+        bar: "bar"
+    });
+
     function navInit(){
         var $mainNav = $(".main-nav");
         var $mainNavHeight = $mainNav.height();
@@ -178,3 +184,29 @@ $(function(){
         }
     }
 });
+
+//模拟下拉的插件
+(function($){
+    $.fn.dropDown = function(setting){
+        var defaultSetting = {
+            foo: "foo"
+        };
+        var opt = $.extend(setting, defaultSetting);
+        console.log(opt);
+        this.each(function(){
+            var _this = $(this);
+            var $selected = _this.find(".selected");
+            var $optionWrap = _this.find(".select-option");
+            _this.click(function(e){
+                var $target = $(e.target);
+                if($target.is(".selected")){
+                    $optionWrap.css("visibility", "visible");
+                }
+                if($target.is("a")){
+                    $selected.text($target.text());
+                }
+            });
+        });
+        return this;
+    };
+})(jQuery);
