@@ -30,9 +30,10 @@ $(function(){
         var navOffsetTop = $mainNav.offset().top;
         var navMap = {
             "index": 0,
-            "search": 1,
-            "regulation": 2,
-            "cases": 3
+            "regulation": 1,
+            "cases": 2,
+            "history": 3,
+            "favorite": 3
         };
         var url = window.top.location.href;
         $(window).scroll(function(){
@@ -182,6 +183,28 @@ $(function(){
         function toggleSummary(){
             $listSummary.toggle();
         }
+
+        var tplDir = "./ajax-tpl/";
+        var tplType = ".html";
+        $(".adv-search-btn").fancybox({
+            'padding': '0px',
+            autoScale: true,
+            'hideOnOverlayClick': false,
+            'overlayShow': true,
+            'overlayOpacity': 0.3,
+            onStart: function (target) {
+                var tpl = $(target).attr("data-tpl");
+                var $container = $($(target).attr("href"));
+                if($container.attr("data-loaded") != "yes"){
+                    $container.html("Loading ...").load(tplDir + tpl + tplType, function(){
+                        //todo..
+                    });
+                }
+            },
+            onClosed: function () {
+
+            }
+        });
     }
 });
 
@@ -192,7 +215,7 @@ $(function(){
             foo: "foo"
         };
         var opt = $.extend(setting, defaultSetting);
-        console.log(opt);
+        //console.log(opt);
         this.each(function(){
             var _this = $(this);
             var $selected = _this.find(".selected");
