@@ -17,17 +17,21 @@ $(function(){
     regulationInit(); //regulation page
 
     //初始化页面中的模拟下拉
-    $(".m-dropDown").dropDown({
-        foo: "fuck",
-        bar: "bar"
-    });
+    $(".m-dropDown").dropDown();
+    var $summary = $("#list-table").find(".summary");
+    $.dropDownFnStack.showSummary = function(){
+        $summary.show();
+    };
+    $.dropDownFnStack.hideSummary = function(){
+        $summary.hide();
+    };
 
     $(".topic dd").sortable({
         connectWith: '.topic dd',
         stop: function(){
             //记录排序
         }
-    });
+    }).disableSelection();
 
     function navInit(){
         var $mainNav = $(".main-nav");
@@ -174,7 +178,6 @@ $(function(){
         var $checkAll = $("#checkAll");
         var $listTable = $("#list-table");
         var $listCheckBox = $listTable.find("input[type=checkbox]");
-        var $listSummary = $listTable.find(".summary");
         //左边面板折叠
         $leftPanel.find("dt").click(function(){
             $(this).parent("dl").toggleClass("expand");
@@ -184,12 +187,6 @@ $(function(){
             var isCheckAll = this.checked;
             $listCheckBox.attr("checked", isCheckAll);
         });
-        //摘要切换显示
-        $(".sort-b").click(toggleSummary);
-
-        function toggleSummary(){
-            $listSummary.toggle();
-        }
 
         var tplDir = "./ajax-tpl/";
         var tplType = ".html";
@@ -215,28 +212,74 @@ $(function(){
     }
 });
 
-//模拟下拉的插件
+/**
+ *  模拟下拉的插件, 该插件仅仅为本站定制
+ *
+ *  一、使用方法:
+ *  严格使用如下html结构
+ *  <div id="test" class="select-sort-wrap">
+ *      <span class="selected">Relevance</span>
+ *      <div class="select-option">
+ *          <a href="javascript:">Relevance</a>
+ *          <a href="javascript:">Promulgation date</a>
+ *          <a href="javascript:">document view</a>
+ *      </div>
+ *  </div>
+ *  如果下拉直接需要页面跳转，直接在a标签写链接地址即可
+ *
+ *  $("#test").dropDown({
+ *      onSelected: function(param){   //下拉切换触发的function（可选项）, param参数包含了插件调用者的信息
+ *          //todo...
+ *      }
+ *  });
+ *
+ *  二、还有一种添加切换事件的方法：
+ *      1. 将事件方法注册到 $.dropDownFnStack 上
+ *      2. 在a标签上添加自定义属性：data-onselect 值为 $.dropDownFnStack 对象里添加的处理方法就OK了
+ *  例如:
+ *   html:
+ *      <a href="javascript:" data-onselect="test">Relevance</a>
+ *   js:
+ *      $.dropDownFnStack.test = function(param){
+ *          //todo..
+ *      }
+ *
+ *  注意：参数里的onSelect与$.dropDownFnStack里注册的会同时触发，所以根据不同情况选择使用
+ */
 (function($){
     $.fn.dropDown = function(setting){
-        var defaultSetting = {
-            foo: "foo"
-        };
-        var opt = $.extend(setting, defaultSetting);
-        //console.log(opt);
+        var defaultSetting = {}; //可添加一些默认设置
+        var opt = $.extend(defaultSetting, setting);
         this.each(function(){
             var _this = $(this);
             var $selected = _this.find(".selected");
             var $optionWrap = _this.find(".select-option");
             _this.click(function(e){
                 var $target = $(e.target);
-                if($target.is(".selected")){
-                    $optionWrap.css("visibility", "visible");
+                if($target.is(".selected") || e.target === this){
+                    $optionWrap.toggle();
                 }
                 if($target.is("a")){
                     $selected.text($target.text());
+                    $optionWrap.hide();
+                    var fn = $target.attr("data-onselect");
+                    var fnStack = $.dropDownFnStack;
+                    var paramObj = {
+                        container: $optionWrap,
+                        valObj: $selected,
+                        clickObj: $target,
+                        caller: _this
+                    };
+                    opt.onSelected && typeof(opt.onSelected) == "function" && opt.onSelected(paramObj);
+                    if(fn && fnStack[fn]){
+                        typeof(fnStack[fn]) == "function" && fnStack[fn](paramObj);
+                    }
                 }
+            }).hover(function(){},function(){
+                $optionWrap.hide();
             });
         });
         return this;
     };
+    $.dropDownFnStack = {};
 })(jQuery);

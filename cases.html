@@ -90,11 +90,20 @@
                     <label><input id="checkAll" type="checkbox" value="all"/></label>
                 </div>
                 <div class="cf select-sort">
-                    <div class="select-sort-wrap sort-a">
+                    <div class="select-sort-wrap m-dropDown">
                         <span class="selected">Relevance</span>
+                        <div class="select-option">
+                            <a href="javascript:">Relevance</a>
+                            <a href="javascript:">Promulgation date</a>
+                            <a href="javascript:">document view</a>
+                        </div>
                     </div>
-                    <div class="select-sort-wrap sort-b">
+                    <div class="select-sort-wrap m-dropDown">
                         <span class="selected">Title and summary</span>
+                        <div class="select-option">
+                            <a href="javascript:" data-onselect="showSummary">Title and summary</a>
+                            <a href="javascript:" data-onselect="hideSummary">Title only</a>
+                        </div>
                     </div>
                 </div>
                 <div class="setting">

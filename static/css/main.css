@@ -580,8 +580,8 @@ a:hover{
     margin-bottom: 12px;
     padding: 10px;
     border: 1px dotted #ffffff;
-    -moz-transition: all 0.1s;
-    -webkit-transition: all 0.1s;
+    /*-moz-transition: all 0.1s;
+    -webkit-transition: all 0.1s;*/
 }
 .topic .item:hover{
     border-color: #cccccc;
@@ -1445,14 +1445,14 @@ a:hover{
 .m-dropDown .select-option{
     border: 1px solid #C7D1C9;
     margin: 0 -1px;
-    visibility: hidden;
+    display: none;
 }
 .m-dropDown .select-option a{
     display: block;
     height: 20px;
     line-height: 20px;
-    -moz-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
     background: #ffffff;
     color: #666666;
     text-decoration: none;
@@ -1472,8 +1472,8 @@ a:hover{
     margin: 10px 0 16px;
 }
 .uc-tab a{
-    height: 24px;
-    line-height: 24px;
+    height: 32px;
+    line-height: 32px;
     padding: 0 8px;
     color: #ffffff;
     float: left;
